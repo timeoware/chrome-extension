@@ -1,0 +1,158 @@
+{
+  "name": {
+    "message": "TimeOware: відстежуйте свій час",
+    "description": ""
+  },
+  "short_name": {
+    "message": "TimeOware",
+    "description": ""
+  },
+  "description": {
+    "message": "TimeOware: відстежуйте свій час",
+    "description": ""
+  },
+  "languageCode": {
+    "message": "uk",
+    "description": ""
+  },
+  "languageTitle": {
+    "message": "Мова:",
+    "description": ""
+  },
+  "totalTitle": {
+    "message": "Всього",
+    "description": ""
+  },
+  "todayTitle": {
+    "message": "Сьогодні",
+    "description": ""
+  },
+  "allTimeTitle": {
+    "message": "Весь час",
+    "description": ""
+  },
+  "daysTitle": {
+    "message": "днів",
+    "description": ""
+  },
+  "dayTitle": {
+    "message": "День",
+    "description": ""
+  },
+  "avgTitle": {
+    "message": "Середнє",
+    "description": ""
+  },
+  "dayAvgTitle": {
+    "message": "-день сер",
+    "description": ""
+  },
+  "perDayTitle": {
+    "message": "/день",
+    "description": ""
+  },
+  "todayBrowserTimeToday": {
+    "message": "Загальний час сьогодні",
+    "description": ""
+  },
+  "ofYourTotalBrowserTime": {
+    "message": "вашого загального часу",
+    "description": ""
+  },
+  "ofYourBrowserTimeToday": {
+    "message": "вашого загального часу сьогодні",
+    "description": ""
+  },
+  "dailyTrendTitle": {
+    "message": "Щоденний тренд",
+    "description": ""
+  },
+  "blockedPageMessageTitle": {
+    "message": "Заблокувати повідомлення на сторінці",
+    "description": ""
+  },
+  "badgeTextStyleTitle": {
+    "message": "Виберіть стиль значка",
+    "description": ""
+  },
+  "blockedText": {
+    "message": "заблоковано",
+    "description": ""
+  },
+  "blockedOnTitle": {
+    "message": "Заблоковано на",
+    "description": ""
+  },
+  "blockTitle": {
+    "message": "Блокувати",
+    "description": ""
+  },
+  "unBlockTitle": {
+    "message": "Розблокувати",
+    "description": ""
+  },
+  "tempUnBlockTitle": {
+    "message": "Тимчасово розблокувати для ",
+    "description": ""
+  },
+  "minutesTitle": {
+    "message": "хвилин",
+    "description": ""
+  },
+  "rankTitle": {
+    "message": "Загальний рейтинг",
+    "description": ""
+  },
+  "defaultBlockMsg": {
+    "message": "Ця сторінка заблокована розширенням TimeOWare.",
+    "description": ""
+  },
+  "updateButton": {
+    "message": "оновлення",
+    "description": ""
+  },
+  "resetToggleButton": {
+    "message": "Скинути розширення",
+    "description": ""
+  },
+  "resetCancelButton": {
+    "message": "Скасувати скидання",
+    "description": ""
+  },
+  "resetButton": {
+    "message": "Так, скинути все!",
+    "description": ""
+  },
+  "blockedSinceStartTitle": {
+    "message": "",
+    "description": ""
+  },
+  "blockedSinceEndTitle": {
+    "message": "тому",
+    "description": ""
+  },
+  "activeTabTitle": {
+    "message": "Активна вкладка",
+    "description": ""
+  },
+  "activeTabsTitle": {
+    "message": "Активні вкладки",
+    "description": ""
+  },
+  "idleSettingTitle": {
+    "message": "Припинити відстеження після простою",
+    "description": ""
+  },
+  "idleSettingDescription": {
+    "message": "Вкладки, на яких відтворюється аудіо, завжди відстежуватимуться (підраховуються)",
+    "description": ""
+  },
+  "trackAsDomainTitle": {
+    "message": "Відстежуйте наступні URL-адреси як домени",
+    "description": ""
+  },
+  "dayHourMinuteSecond": {
+    "message": "д, год, м, с",
+    "description": ""
+  }
+}

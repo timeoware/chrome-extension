@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware: 시간을 모니터링하세요",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware: 시간을 모니터링하세요",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "ko",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "언어:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "총",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "오늘",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "모든 시간",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "날",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "낮",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "평균",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "-일 평균",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/낮",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "오늘의 총 시간",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "총 시간 중",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "오늘 총 시간 중",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "일일 동향",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "페이지 메시지 차단",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "아이콘 스타일을 선택하세요",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "막힌",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "차단 날짜",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "차단하다",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "차단 해제",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "일시적으로 차단 해제 ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "분",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "종합순위",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "이 페이지는 TimeOWare 확장 프로그램에 의해 차단되었습니다.",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "업데이트",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "확장 프로그램 재설정",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "재설정 취소",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "응, 전부 재설정해!",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "~ 전에",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "활성 탭",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "활성 탭",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "유휴 상태 후 추적 중지",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "오디오를 재생하는 탭은 항상 추적(계산)됩니다.",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "다음 URL을 도메인으로 추적",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "일,시,분,초",
+        "description": ""
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware: Pantau Masa Anda",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware: Pantau Masa Anda",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "ms",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "Bahasa:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "Jumlah",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "Hari ini",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "Setiap masa",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "hari-hari",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "Hari",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "Purata",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "-purata hari",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/hari",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "Jumlah Masa Hari Ini",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "daripada jumlah masa anda",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "daripada jumlah masa anda hari ini",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "Trend Harian",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "Sekat Mesej Halaman",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "Pilih gaya ikon anda",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "Disekat",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "Disekat dihidupkan",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "Sekat",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "Nyahsekat",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "Nyahsekat buat sementara waktu ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "minit",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "Kedudukan Keseluruhan",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "Halaman ini disekat oleh sambungan TimeOWare.",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "Kemas kini",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "Tetapkan semula sambungan",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "Batalkan tetapan semula",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "Ya, tetapkan semula semuanya!",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "lalu",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "Tab aktif",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "Tab aktif",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "Berhenti menjejaki selepas melahu",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "Tab yang memainkan audio akan sentiasa dijejaki (dikira)",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "Jejak URL berikut sebagai domain",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "d,h,m,s",
+        "description": ""
+    }
+}

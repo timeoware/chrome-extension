@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware: ติดตามเวลาของคุณ",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOWare",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware: ติดตามเวลาของคุณ",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "th",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "ภาษา:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "ทั้งหมด",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "วันนี้",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "ตลอดเวลา",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "วัน",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "วัน",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "เฉลี่ย",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "เฉลี่ยวัน",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/วัน",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "เวลาทั้งหมดวันนี้",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "ของเวลาทั้งหมดของคุณ",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "ของเวลาทั้งหมดของคุณในวันนี้",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "เทรนด์รายวัน",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "บล็อกข้อความเพจ",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "เลือกสไตล์ไอคอนของคุณ",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "ถูกบล็อก",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "บล็อคแล้ว",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "ปิดกั้น",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "เลิกบล็อก",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "ปลดบล็อกชั่วคราวสำหรับ ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "นาที",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "อันดับโดยรวม",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "หน้านี้ถูกบล็อกโดยส่วนขยาย TimeOware",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "อัปเดต",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "รีเซ็ตส่วนขยาย",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "ยกเลิกการรีเซ็ต",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "ใช่ รีเซ็ตทุกอย่าง!",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "ที่ผ่านมา",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "แท็บที่ใช้งานอยู่",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "แท็บที่ใช้งานอยู่",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "หยุดการติดตามหลังจากไม่ได้ใช้งาน",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "แท็บที่เล่นเสียงจะถูกติดตามเสมอ (นับ)",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "ติดตาม URL ต่อไปนี้เป็นโดเมน",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "d,h,m,s",
+        "description": ""
+    }
+}

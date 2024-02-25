@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware: Theo dõi thời gian của bạn",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware: Theo dõi thời gian của bạn",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "vi",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "Ngôn ngữ:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "Tổng cộng",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "Hôm nay",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "mọi lúc",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "Ngày",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "Ngày",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "Trung bình",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "-ngày trung bình",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/ngày",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "Tổng thời gian hôm nay",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "trong tổng thời gian của bạn",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "trong tổng thời gian của bạn ngày hôm nay",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "Xu hướng hàng ngày",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "Chặn tin nhắn trang",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "Chọn kiểu biểu tượng của bạn",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "Bị chặn",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "Bị chặn trên",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "Khối",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "Mở khóa",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "Tạm thời bỏ chặn cho ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "Phút",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "Tổng xếp hạng",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "Trang này bị chặn bởi tiện ích mở rộng TimeOWare.",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "Cập nhật",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "Đặt lại tiện ích mở rộng",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "Hủy đặt lại",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "Có, thiết lập lại mọi thứ!",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "trước kia",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "Tab đang hoạt động",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "Tab hoạt động",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "Dừng theo dõi sau khi không hoạt động trong một thời gian",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "Các tab phát âm thanh sẽ luôn được theo dõi (được tính)",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "Theo dõi các URL sau dưới dạng tên miền",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "d,h,m,s",
+        "description": ""
+    }
+}

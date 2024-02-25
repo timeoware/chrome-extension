@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware: مراقبة وقتك",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware: مراقبة وقتك",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "ar",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "لغة:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "المجموع",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "اليوم",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "كل الوقت",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "أيام",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "يوم",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "متوسط",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "-متوسط ​​اليوم",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/يوم",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "إجمالي الوقت اليوم",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "من إجمالي وقتك",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "من إجمالي وقتك اليوم",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "الاتجاه اليومي",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "حظر رسالة الصفحة",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "حدد نمط الرمز الخاص بك",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "محظور",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "تم حظره",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "حاجز",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "رفع الحظر",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "قم بإلغاء الحظر مؤقتًا لـ ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "دقائق",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "المرتبة الإجمالية",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "هذه الصفحة محظورة بامتداد TimeOWare.",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "تحديث",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "إعادة تعيين التمديد",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "إلغاء إعادة التعيين",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "نعم، أعد ضبط كل شيء!",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "منذ",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "علامة التبويب النشطة",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "علامات التبويب النشطة",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "توقف عن التتبع بعد أن كنت خاملاً",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "سيتم دائمًا تتبع (عد) علامات التبويب التي تقوم بتشغيل الصوت",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "تتبع عناوين URL التالية كمجالات",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "د، ح، م، ق",
+        "description": ""
+    }
+}

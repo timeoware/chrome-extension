@@ -1,0 +1,158 @@
+﻿{
+  "name": {
+    "message": "TimeOware: Überwachen Sie Ihre Zeit",
+    "description": ""
+  },
+  "short_name": {
+    "message": "TimeOware",
+    "description": ""
+  },
+  "description": {
+    "message": "TimeOware: Überwachen Sie Ihre Zeit",
+    "description": ""
+  },
+  "languageCode": {
+    "message": "de",
+    "description": ""
+  },
+  "languageTitle": {
+    "message": "Sprache:",
+    "description": ""
+  },
+  "totalTitle": {
+    "message": "Gesamt",
+    "description": ""
+  },
+  "todayTitle": {
+    "message": "Heute",
+    "description": ""
+  },
+  "allTimeTitle": {
+    "message": "Alle Zeit",
+    "description": ""
+  },
+  "daysTitle": {
+    "message": "Tage",
+    "description": ""
+  },
+  "dayTitle": {
+    "message": "Tag",
+    "description": ""
+  },
+  "avgTitle": {
+    "message": "Durchschn",
+    "description": ""
+  },
+  "dayAvgTitle": {
+    "message": "-Tagesdurchschn",
+    "description": ""
+  },
+  "perDayTitle": {
+    "message": "/Tag",
+    "description": ""
+  },
+  "todayBrowserTimeToday": {
+    "message": "Gesamtzeit heute",
+    "description": ""
+  },
+  "ofYourTotalBrowserTime": {
+    "message": "Ihrer Gesamtzeit",
+    "description": ""
+  },
+  "ofYourBrowserTimeToday": {
+    "message": "Ihrer heutigen Gesamtzeit",
+    "description": ""
+  },
+  "dailyTrendTitle": {
+    "message": "Täglicher Trend",
+    "description": ""
+  },
+  "blockedPageMessageTitle": {
+    "message": "Seitennachricht blockieren",
+    "description": ""
+  },
+  "badgeTextStyleTitle": {
+    "message": "Wählen Sie Ihren Symbolstil",
+    "description": ""
+  },
+  "blockedText": {
+    "message": "verstopft",
+    "description": ""
+  },
+  "blockedOnTitle": {
+    "message": "Blockiert am",
+    "description": ""
+  },
+  "blockTitle": {
+    "message": "Block",
+    "description": ""
+  },
+  "unBlockTitle": {
+    "message": "Entsperren",
+    "description": ""
+  },
+  "tempUnBlockTitle": {
+    "message": "Vorübergehend entsperren für ",
+    "description": ""
+  },
+  "minutesTitle": {
+    "message": "Minuten",
+    "description": ""
+  },
+  "rankTitle": {
+    "message": "Gesamtrang",
+    "description": ""
+  },
+  "defaultBlockMsg": {
+    "message": "Diese Seite wird durch die TimeOWare-Erweiterung blockiert.",
+    "description": ""
+  },
+  "updateButton": {
+    "message": "Aktualisieren",
+    "description": ""
+  },
+  "resetToggleButton": {
+    "message": "Erweiterung zurücksetzen",
+    "description": ""
+  },
+  "resetCancelButton": {
+    "message": "Zurücksetzen abbrechen",
+    "description": ""
+  },
+  "resetButton": {
+    "message": "Ja, alles zurücksetzen!",
+    "description": ""
+  },
+  "blockedSinceStartTitle": {
+    "message": "",
+    "description": ""
+  },
+  "blockedSinceEndTitle": {
+    "message": "vor",
+    "description": ""
+  },
+  "activeTabTitle": {
+    "message": "Aktive Registerkarte",
+    "description": ""
+  },
+  "activeTabsTitle": {
+    "message": "Aktive Registerkarten",
+    "description": ""
+  },
+  "idleSettingTitle": {
+    "message": "Stoppen Sie die Verfolgung, nachdem Sie eine Zeit lang inaktiv waren",
+    "description": ""
+  },
+  "idleSettingDescription": {
+    "message": "Tabs, die Audio abspielen, werden immer verfolgt (gezählt)",
+    "description": ""
+  },
+  "trackAsDomainTitle": {
+    "message": "Verfolgen Sie folgende URLs als Domänen",
+    "description": ""
+  },
+  "dayHourMinuteSecond": {
+    "message": "t,h,m,s",
+    "description": ""
+  }
+}

@@ -1,0 +1,158 @@
+{
+    "name": {
+      "message": "TimeOware: Monitoruj swój czas",
+      "description": ""
+    },
+    "short_name": {
+      "message": "TimeOware",
+      "description": ""
+    },
+    "description": {
+      "message": "TimeOware: Monitoruj swój czas",
+      "description": ""
+    },
+    "languageCode": {
+      "message": "pl",
+      "description": ""
+    },
+    "languageTitle": {
+      "message": "Język:",
+      "description": ""
+    },
+    "totalTitle": {
+      "message": "Całkowity",
+      "description": ""
+    },
+    "todayTitle": {
+      "message": "Dzisiaj",
+      "description": ""
+    },
+    "allTimeTitle": {
+      "message": "Cały czas",
+      "description": ""
+    },
+    "daysTitle": {
+      "message": "Dni",
+      "description": ""
+    },
+    "dayTitle": {
+      "message": "Dzień",
+      "description": ""
+    },
+    "avgTitle": {
+      "message": "Śr",
+      "description": ""
+    },
+    "dayAvgTitle": {
+      "message": "-dzień średnio",
+      "description": ""
+    },
+    "perDayTitle": {
+      "message": "/dzień",
+      "description": ""
+    },
+    "todayBrowserTimeToday": {
+      "message": "Całkowity czas dzisiaj",
+      "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+      "message": "całkowitego czasu",
+      "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+      "message": "całego Twojego dzisiejszego czasu",
+      "description": ""
+    },
+    "dailyTrendTitle": {
+      "message": "Codzienny trend",
+      "description": ""
+    },
+    "blockedPageMessageTitle": {
+      "message": "Zablokuj wiadomość na stronie",
+      "description": ""
+    },
+    "badgeTextStyleTitle": {
+      "message": "Wybierz styl ikony",
+      "description": ""
+    },
+    "blockedText": {
+      "message": "Zablokowany",
+      "description": ""
+    },
+    "blockedOnTitle": {
+      "message": "Zablokowano",
+      "description": ""
+    },
+    "blockTitle": {
+      "message": "Blok",
+      "description": ""
+    },
+    "unBlockTitle": {
+      "message": "Odblokować",
+      "description": ""
+    },
+    "tempUnBlockTitle": {
+      "message": "Tymczasowo odblokuj dla ",
+      "description": ""
+    },
+    "minutesTitle": {
+      "message": "Minuty",
+      "description": ""
+    },
+    "rankTitle": {
+      "message": "Ranking ogólny",
+      "description": ""
+    },
+    "defaultBlockMsg": {
+      "message": "Ta strona jest blokowana przez rozszerzenie TimeOWAre.",
+      "description": ""
+    },
+    "updateButton": {
+      "message": "Aktualizacja",
+      "description": ""
+    },
+    "resetToggleButton": {
+      "message": "Zresetuj rozszerzenie",
+      "description": ""
+    },
+    "resetCancelButton": {
+      "message": "Anuluj resetowanie",
+      "description": ""
+    },
+    "resetButton": {
+      "message": "Tak, zresetuj wszystko!",
+      "description": ""
+    },
+    "blockedSinceStartTitle": {
+      "message": "",
+      "description": ""
+    },
+    "blockedSinceEndTitle": {
+      "message": "temu",
+      "description": ""
+    },
+    "activeTabTitle": {
+      "message": "Aktywna zakładka",
+      "description": ""
+    },
+    "activeTabsTitle": {
+      "message": "Aktywne zakładki",
+      "description": ""
+    },
+    "idleSettingTitle": {
+      "message": "Zatrzymaj śledzenie po okresie bezczynności",
+      "description": ""
+    },
+    "idleSettingDescription": {
+      "message": "Karty odtwarzające dźwięk będą zawsze śledzone (liczone)",
+      "description": ""
+    },
+    "trackAsDomainTitle": {
+      "message": "Śledź następujące adresy URL jako domeny",
+      "description": ""
+    },
+    "dayHourMinuteSecond": {
+      "message": "d, h, m, s",
+      "description": ""
+    }
+  }

@@ -1,0 +1,168 @@
+:root {
+    --backgroundSvg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M 0%2c227 C 57.6%2c209.2 172.8%2c141 288%2c138 C 403.2%2c135 460.8%2c221.8 576%2c212 C 691.2%2c202.2 748.8%2c101 864%2c89 C 979.2%2c77 1036.8%2c164.2 1152%2c152 C 1267.2%2c139.8 1382.4%2c52.8 1440%2c28L1440 560L0 560z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c371 C 96%2c400 288%2c527.2 480%2c516 C 672%2c504.8 768%2c334 960%2c315 C 1152%2c296 1344%2c399.8 1440%2c421L1440 560L0 560z' fill='%232264ab'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    --tomato: #ea4335;
+    --fontColor: black;
+    --cog: url(/images/gear-white.png);
+}
+
+[data-theme="blue"] {
+    --backgroundSvg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M 0%2c227 C 57.6%2c209.2 172.8%2c141 288%2c138 C 403.2%2c135 460.8%2c221.8 576%2c212 C 691.2%2c202.2 748.8%2c101 864%2c89 C 979.2%2c77 1036.8%2c164.2 1152%2c152 C 1267.2%2c139.8 1382.4%2c52.8 1440%2c28L1440 560L0 560z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c371 C 96%2c400 288%2c527.2 480%2c516 C 672%2c504.8 768%2c334 960%2c315 C 1152%2c296 1344%2c399.8 1440%2c421L1440 560L0 560z' fill='%232264ab'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    --tomato: #ea4335;
+    --fontColor: whitesmoke;
+    --arcColor: #184a7e;
+    --shadowColor: black;
+    --cog: url(/images/gear-white.png);
+    --bs-dark-rgb: 14, 42, 71;
+    --bs-primary-rgb: 36, 110, 187;
+    --bs-secondary-rgb: 219, 224, 230;
+    --bs-light-rgb: 233, 236, 239;
+}
+
+[data-theme="silver"] {
+    --backgroundSvg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1004%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(157%2c 161%2c 165%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c137 C 57.6%2c151.2 172.8%2c226.6 288%2c208 C 403.2%2c189.4 460.8%2c33.4 576%2c44 C 691.2%2c54.6 748.8%2c247.6 864%2c261 C 979.2%2c274.4 1036.8%2c118.4 1152%2c111 C 1267.2%2c103.6 1382.4%2c201.4 1440%2c224L1440 560L0 560z' fill='rgba(175%2c 179%2c 182%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c491 C 96%2c468.4 288%2c371.6 480%2c378 C 672%2c384.4 768%2c537.8 960%2c523 C 1152%2c508.2 1344%2c347.8 1440%2c304L1440 560L0 560z' fill='rgba(193%2c 197%2c 199%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1004'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    --tomato: #ea4335;
+    --fontColor: black;
+    --arcColor: silver;
+    --shadowColor: gray;
+    --cog: url(/images/gear-black.png);
+    --bs-primary-rgb: 14, 42, 71;
+    --bs-secondary-rgb: 36, 110, 187;
+}
+
+html {
+    font-size: 16px;
+}
+
+#mainDiv {
+    width: 560px;
+    height: 540px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.themeBox {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+
+body {
+    margin: 5px;
+    color: var(--arcColor);
+}
+
+.svgBg {
+    background-image: var(--backgroundSvg);
+    background-position: center center;
+}
+
+.out-text {
+    color: var(--fontColor);
+}
+
+.arcColor {
+    fill: var(--arcColor);
+}
+
+.barBgColor {
+    background-color: var(--arcColor);
+}
+
+
+#gearImg {
+    content: var(--cog);
+}
+
+
+
+svg {
+    filter: drop-shadow(0 0 3px var(--shadowColor));
+}
+
+#centerText {
+    position: absolute;
+    left: 125px;
+    right: 125px;
+    bottom: 115px;
+    top: 115px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.hilite {
+    fill: var(--tomato);
+}
+
+.badge-domain {
+    background-color: var(--tomato);
+}
+
+
+.badge-total {
+    background-color: var(--arcColor);
+}
+
+.fav-icon {
+    max-height: 27px;
+    max-width: 27px;
+}
+
+.mini-icon {
+    max-height: 13px;
+    padding-bottom: 2px;
+}
+
+.down-arrow {
+    max-width: 5px;
+}
+
+.underIconText {
+    background-color: black !important;
+    border-radius: 4px;
+    padding: 0 4px;
+    color: white;
+    font-size: 13px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.bar {
+    border: 1px solid #0e2a47;
+}
+
+.flex-even {
+    flex: 1 1 auto;
+}
+
+#loader {
+    margin: auto;
+    border: 80px solid #EAF0F6;
+    border-radius: 50%;
+    border-top: 80px solid #ea4335;
+    width: 480px;
+    height: 480px;
+    animation: spinner 2s linear infinite;
+    background-color: transparent;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(365deg);
+    }
+}
+
+#timeToday,
+#avgTime {
+    font-weight: bolder;
+}

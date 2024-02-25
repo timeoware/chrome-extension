@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware: உங்கள் நேரத்தை கண்காணிக்கவும்",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware: உங்கள் நேரத்தை கண்காணிக்கவும்",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "ta",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "மொழி:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "மொத்தம்",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "இன்று",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "எல்லா நேரமும்",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "நாட்களில்",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "நாள்",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "சராசரி",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "- நாள் சராசரி",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/நாள்",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "இன்றைய மொத்த நேரம்",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "உங்கள் மொத்த நேரம்",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "இன்றைய உங்கள் மொத்த நேரம்",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "தினசரி போக்கு",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "பக்கச் செய்தியைத் தடு",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "உங்கள் ஐகான் பாணியைத் தேர்ந்தெடுக்கவும்",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "தடுக்கப்பட்டது",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "அன்று தடுக்கப்பட்டது",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "தடு",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "தடைநீக்கு",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "தற்காலிகமாக தடைநீக்கு ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "நிமிடங்கள்",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "ஒட்டுமொத்த tharavarisai",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "TimeOWare நீட்டிப்பால் இந்தப் பக்கம் தடுக்கப்பட்டுள்ளது.",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "புதுப்பிக்கவும்",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "நீட்டிப்பை மீட்டமைக்கவும்",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "மீட்டமைப்பை ரத்துசெய்",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "ஆம், எல்லாவற்றையும் மீட்டமை!",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "முன்பு",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "செயலில் உள்ள தாவல்",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "செயலில் உள்ள தாவல்கள்",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "சும்மா இருந்த பிறகு கண்காணிப்பதை நிறுத்துங்கள்",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "ஆடியோ இயங்கும் தாவல்கள் எப்போதும் கண்காணிக்கப்படும் (எண்ணப்படும்)",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "பின்வரும் URLகளை டொமைன்களாகக் கண்காணிக்கவும்",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "d,h,m,s",
+        "description": ""
+    }
+}

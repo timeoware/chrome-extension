@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware : surveillez votre temps",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware : surveillez votre temps",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "fr",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "Langue:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "Total",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "Aujourd'hui",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "Tout le temps",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "Jours",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "Jour",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "Moy.",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "moyenne par jour",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/jour",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "Temps total aujourd'hui",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "de votre temps total",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "de votre temps total aujourd'hui",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "Tendance quotidienne",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "Bloquer le message de la page",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "Sélectionnez votre style d'icône",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "Bloqué",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "Bloqué le",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "Bloc",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "Débloquer",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "Débloquer temporairement pour ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "Minutes",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "Classement général",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "Cette page est bloquée par l'extension TimeOWare.",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "Mise à jour",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "Réinitialiser l'extension",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "Annuler la réinitialisation",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "Oui, réinitialisez tout !",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "il y a",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "Onglet actif",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "Onglets actifs",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "Arrêter le suivi après avoir été inactif pendant",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "Les onglets lisant de l'audio seront toujours suivis (comptés)",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "Suivre les URL suivantes en tant que domaines",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "d,h,m,s",
+        "description": ""
+    }
+}

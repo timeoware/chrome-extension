@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware: monitora il tuo tempo",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware: monitora il tuo tempo",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "it",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "Lingua:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "Totale",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "Oggi",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "Sempre",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "Giorni",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "Giorno",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "Media",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "-giorno medio",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/giorno",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "Tempo totale oggi",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "del tuo tempo totale",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "del tuo tempo totale oggi",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "Tendenza quotidiana",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "Blocca il messaggio della pagina",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "Seleziona lo stile dell'icona",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "Bloccato",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "Bloccato",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "Bloccare",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "Sbloccare",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "Sblocca temporaneamente per ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "Minuti",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "Punteggio generale",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "Questa pagina è bloccata dall'estensione TimeOWare.",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "Aggiornamento",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "Reimposta l'estensione",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "Annulla il ripristino",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "Sì, resetta tutto!",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "fa",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "Scheda attiva",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "Schede attive",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "Interrompi il monitoraggio dopo essere rimasto inattivo per",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "Le schede che riproducono l'audio verranno sempre tracciate (contate)",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "Tieni traccia dei seguenti URL come domini",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "d,h,m,s",
+        "description": ""
+    }
+}

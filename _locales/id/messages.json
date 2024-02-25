@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware: Pantau Waktu Anda",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware: Pantau Waktu Anda",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "id",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "Bahasa:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "Total",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "Hari ini",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "Sepanjang waktu",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "hari",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "Hari",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "Rata-rata",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "-rata-rata hari",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/hari",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "Total Waktu Hari Ini",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "dari total waktu Anda",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "dari total waktu Anda hari ini",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "Tren Harian",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "Blokir Pesan Halaman",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "Pilih gaya ikon Anda",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "Diblokir",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "Diblokir",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "Memblokir",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "Buka blokir",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "Buka blokir sementara untuk ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "Menit",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "Peringkat Keseluruhan",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "Halaman ini diblokir oleh ekstensi TimeOWare.",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "Memperbarui",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "Setel ulang ekstensi",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "Batalkan pengaturan ulang",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "Ya, setel ulang semuanya!",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "yang lalu",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "Tab aktif",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "Tab aktif",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "Hentikan pelacakan setelah menganggur",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "Tab yang memutar audio akan selalu dilacak (dihitung)",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "Lacak URL berikut sebagai domain",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "d,h,m,s",
+        "description": ""
+    }
+}

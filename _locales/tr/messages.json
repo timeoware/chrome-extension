@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "Hangi sitede ne kadar zaman harcadığınızı her zaman bilin.",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "tr",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "Dil:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "Toplam",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "Bugün",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "Her zaman",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "Günler",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "Gün",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "Ort.",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "günlük ortalama",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/gün",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "Bugünkü Toplam Süre",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "toplam zamanınızın",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "bugünkü toplam zamanınızın",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "Günlük Trend",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "Sayfa Mesajını Engelle",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "Simge stilinizi seçin",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "Engellendi",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "Engellenme tarihi",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "Engellemek",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "Engellemeyi kaldır",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "Geçici olarak engellemeyi kaldır ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "dakika",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "Genel sıralama",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "Bu sayfa TimeOWare uzantısı tarafından engellenmiştir.",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "Güncelle",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "Uzantıyı sıfırla",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "Sıfırlamayı iptal et",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "Evet, sıfırla",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "evvel",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "Etkin sekme",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "Etkin sekmeler",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "Atıl olma süresi",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "Sesli sekmeler her zaman sayılır",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "Aşağıdaki URL'leri alan adı olarak izle",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "g,sa,dk,sn",
+        "description": ""
+    }
+}

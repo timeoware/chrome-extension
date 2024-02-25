@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware: 時間を監視する",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware: 時間を監視する",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "ja",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "言語：",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "合計",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "今日",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "オールタイム",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "日々",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "日",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "平均",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "-日平均",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/日",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "今日の合計時間",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "あなたの合計時間のうち",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "今日の合計時間のうち",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "日々の傾向",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "ページメッセージをブロックする",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "アイコンのスタイルを選択してください",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "ブロックされました",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "ブロックされました",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "ブロック",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "ブロックを解除する",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "一時的にブロックを解除する ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "分",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "総合順位",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "このページは TimeOWare 拡張機能によってブロックされています。",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "アップデート",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "拡張機能をリセットする",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "リセットのキャンセル",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "はい、すべてリセットします！",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "前",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "アクティブなタブ",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "アクティブなタブ",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "アイドル状態になったら追跡を停止する",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "オーディオを再生しているタブは常に追跡 (カウント) されます。",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "次の URL をドメインとして追跡する",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "d、h、m、s",
+        "description": ""
+    }
+}

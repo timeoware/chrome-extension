@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/svgElements.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <div id="mainDiv" class="svgBg">
+        <div style="position:relative;" class="w-100 h-100">
+            <div style="position:absolute; top: 0; right: 0; left:0;" class="p-2">
+                <div class="d-flex flex-row justify-content-between out-text">
+                    <div
+                        class="homeClick d-flex flex-row align-items-center justify-content-center text-light small fw-bold">
+                        <div>Time</div>
+                        <div><img class="extension-icon" style="width:21px; margin:1px;" /></div>
+                        <div>Ware</div>
+                    </div>
+                    <div>
+                        <button id="settingsBtn" class="btn" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offCanvasMenu">
+                            <img id="gearImg" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="footer" class="p-2" style="position:absolute; bottom: 0; right:0; left:0;">
+                <div class="d-flex flex-row justify-content-between align-items-center w-100 out-text">
+                    <div id="activeTabs"></div>
+                    <div class="d-flex flex-column justify-content-end">
+                        <div id="todayBrowserTimeToday" class="small"></div>
+                        <div id="todayTotalTime" data-bs-toggle="offcanvas" data-bs-target="#offCanvasMenu"
+                            class="badge bg-light text-dark pointer"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="svgDiv" style="position:absolute; top: 0; right: 0; bottom: 0; left: 0; border-radius: 50%;">
+                <div class="d-flex flex-column justify-content-center align-items-center h-100 w-100"
+                    style="border-radius: 50%;">
+                    <div style="border-radius: 50%;">
+                        <svg id="svg" xmlns="http://www.w3.org/2000/svg" width="480" height="480"></svg>
+                    </div>
+                </div>
+            </div>
+            <div id="centerText" class="text-dark">
+                <div class="d-flex flex-column justify-content-center align-items-center h-100">
+
+                    <div style="height: 27px;"><img class="fav-icon" /></div>
+                    <div id="domain" class="mt-1 small"></div>
+
+                    <div id="domainBarChartWrapper" style="display:none;">
+                        <div id="domainBarChart"></div>
+                        <div id="barDates" class="mt-1 w-100">
+                            <div class="d-flex flex-row justify-content-between small gap-1">
+                                <div id="fromDate"></div>
+                                <div> - </div>
+                                <div id="toDate"></div>
+                            </div>
+                        </div>
+                        <div id="barDetails" class="mt-1 w-100" style="display:none;">
+                            <div class="d-flex flex-row justify-content-between align-items-center gap-2">
+                                <div
+                                    class="small align-self-start d-flex flex-row align-items-center justify-content-center gap-1">
+                                    <div id="barIcon" style="display:none;"><img class="fav-icon mini-icon" /></div>
+                                    <div id="barSummary"></div>
+                                </div>
+                                <div id="barDate" class="small"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="dayOne" style="display:none">
+                        <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                            <div class="todayTitle small"></div>
+                            <div class="timeToday" style="font-size:70px; font-weight: bold;"></div>
+                            <div class="percentageToday small"></div>
+                        </div>
+                        <br />
+                    </div>
+
+                    <div id="dayOneNot" class="mt-1" style="display:none">
+                        <div class="d-flex flex-row justify-content-center align-items-center gap-2">
+                            <div id="averageTitle" class="small"></div>
+                            <div class="fs-4" id="avgTime"></div>
+                            <div id="perDayTitle" class="small"></div>
+                            <div id="domainTotalPercentage" class="small"></div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center align-items-center my-1 gap-2">
+                            <div class="todayTitle small"></div>
+                            <div class="timeToday fs-1 fw-bold"></div>
+                            <div class="percentageToday small"></div>
+                        </div>
+                    </div>
+
+                    <div id="blockDiv" class="mt-1 align-middle" style="height:33px;">
+                        <img id="blockImgWait" class="blockImg pointer" src="/images/loading.gif"
+                            style="display:none;" />
+                        <img id="blockImgOff" class="blockImg pointer" src="/images/block-off.png"
+                            style="display:none; height: 25px;" />
+                        <img id="blockImgOn" class="blockImg pointer" src="/images/block-on.png"
+                            style="display:none; height: 25px;" />
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offCanvasMenu" style="padding:3px;">
+
+        <div class="d-flex flex-row justify-content-between p-2">
+            <div class="d-flex flex-row gap-2 align-items-center ms-2">
+                <div id="menuSettings" class="rounded bg-primary px-2 pb-1 menuToggleButton pointer">
+                    <img src="/images/gear-white.png" style="height:19px;" />
+                </div>
+                <div id="menuList" class="rounded bg-secondary px-2 pb-1 menuToggleButton pointer">
+                    <img src="/images/list.png" style="height:19px;" />
+                </div>
+            </div>
+            <div>
+                <button id="settingsCloseBtn" type="button" class="btn" data-bs-dismiss="offcanvas">
+                    <img src="images/x.png" />
+                </button>
+            </div>
+        </div>
+
+        <div id="menuSettingsContent" class="offcanvas-body py-0 menuContent">
+            <div class="d-flex flex-column justify-content-between h-100">
+
+                <div class="d-flex flex-column gap-4">
+                    <div>
+                        <div class="d-flex flex-row justify-content-start gap-2 align-items-center mb-1">
+                            <div id="badgeTextStyleTitle" class="small"></div>
+                        </div>
+                        <div class="d-flex flex-row align-items-stretch align-items-center gap-2">
+                            <div id="badgeOption-none"
+                                class="col-4 badgeOption d-flex flex-even flex-column align-items-center justify-content-center rounded pointer p-2"
+                                data-val="none">
+                                <div><img class="extension-icon extension-icon-option" style="max-width: 35px;" /></div>
+                            </div>
+                            <div id="badgeOption-time"
+                                class="col-4 badgeOption d-flex flex-even flex-column align-items-center justify-content-center rounded gap-1 p-2 pointer"
+                                data-val="time">
+                                <div><img class="extension-icon extension-icon-option" style="max-width: 15px;" /></div>
+                                <div id="timeUnderIcon" class="underIconText"></div>
+                            </div>
+                            <div id="badgeOption-percentage"
+                                class="col-4 badgeOption flex-even d-flex flex-column align-items-center justify-content-center rounded gap-1 pointer"
+                                data-val="percentage">
+                                <div><img class="extension-icon extension-icon-option" style="max-width: 15px;" /></div>
+                                <div id="percentageUnderIcon" class="underIconText"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-light text-dark rounded  p-2 border-start border-primary border-4 small">
+                        <div class="d-flex flex-row align-items-center justify-content-start">
+                            <div id="idleSettingTitle"></div>
+                            <div class="px-1 flex-shrink-0">
+                                <select class="form-select form-select-sm" id="idleMinutesDD">
+                                    <option value="2">2</option>
+                                    <option value="5">5</option>
+                                    <option value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="30">30</option>
+                                    <option value="60">60</option>
+                                </select>
+                            </div>
+                            <div class="minutesTitle pe-0 me-0"></div>
+                        </div>
+                        <div id="idleSettingDescription"></div>
+                    </div>
+
+
+                    <div
+                        class="bg-light text-dark rounded p-2 border-start border-primary border-4 small d-flex flex-row justify-content-between align-items-center">
+
+                        <div class="d-flex flex-row justify-content-start align-items-center gap-3">
+                            <div id="languageTitle"></div>
+                            <div>
+                                <select class="form-select form-select-sm" id="languageCodeDD">
+                                    <option value="ar">العربية</option>
+                                    <option value="id">Bahasa Indonesia</option>
+                                    <option value="ms">Bahasa Melayu</option>
+                                    <option value="de">Deutsch</option>
+                                    <option value="en">English</option>
+                                    <option value="es">español</option>
+                                    <option value="fr">Français</option>
+                                    <option value="nl">Nederlands</option>
+                                    <option value="it">italiano</option>
+                                    <option value="pl">polski</option>
+                                    <option value="pt">Portuguese</option>
+                                    <option value="sv">svenska</option>
+                                    <option value="ru">русский</option>
+                                    <option value="vi">Tiếng Việt</option>
+                                    <option value="tr">Türkçe</option>
+                                    <option value="uk">українська</option>
+                                    <option value="fa">فارسی</option>
+                                    <option value="hi">हिन्दी</option>
+                                    <option value="bn">বাংলা</option>
+                                    <option value="ta">தமிழ்</option>
+                                    <option value="th">ไทย</option>
+                                    <option value="ko">한국어</option>
+                                    <option value="ja">日本</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!--
+                    <div class="d-flex flex-row justify-content-end gap-2">
+                        <div class="themeBox svgBg pointer" data-theme="blue"></div>
+                        <div class="themeBox svgBg pointer" data-theme="silver"></div>
+                    </div>
+                    -->
+                    </div>
+
+                    <div id="resetWait" class="text-center align-middle" style="display:none; height:31px;">
+                        <img src="images/loading.gif" style="height:19px;" />
+                    </div>
+
+                    <div id="resetDiv">
+                        <button id="resetToggleButton" type="button"
+                            class="btn btn-sm bg-primary text-light col-12 reset-toggle"></button>
+                    </div>
+
+                    <div id="resetConfirmationDiv" style="display:none;">
+                        <div class="d-flex flex-row justify-content-around align-items-center gap-2">
+                            <div class="flex-grow-1">
+                                <button id="resetCancelButton" type="button"
+                                    class="btn btn-sm bg-primary text-light col-12 reset-toggle"></button>
+                            </div>
+                            <div class="flex-grow-1">
+                                <button id="resetButton" type="button"
+                                    class="btn btn-sm bg-danger text-light col-12"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row justify-content-between text-secondary align-items-center small gap-2 mb-3">
+                    <div id="version" class="text-secondary"></div>
+                    <div class="d-flex flex-row gap-2 align-items-center">
+                        <div id="gitHubLink"><a target="_blank"
+                                href="https://github.com/timeoware/chrome-extension"><img src="images/github.png" /></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="menuListContent" class="offcanvas-body py-0 menuContent" style="display:none">
+
+            <div>
+                <select id="rankListModeDD" class="form-select form-select-sm">
+                    <option value="0" id="rankListOption0"></option>
+                    <option value="1" id="rankListOption1"></option>
+                </select>
+            </div>
+            <div class="mt-2" id="rankListDiv"></div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

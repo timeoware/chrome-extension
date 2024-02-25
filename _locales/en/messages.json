@@ -1,0 +1,158 @@
+﻿{
+  "name": {
+    "message": "TimeOware: Monitor Your Time & Block Websites",
+    "description": ""
+  },
+  "short_name": {
+    "message": "TimeOware",
+    "description": ""
+  },
+  "description": {
+    "message": "TimeOware: Monitor Your Time & Block Websites",
+    "description": ""
+  },
+  "languageCode": {
+    "message": "en",
+    "description": ""
+  },
+  "languageTitle": {
+    "message": "Language:",
+    "description": ""
+  },
+  "totalTitle": {
+    "message": "Total",
+    "description": ""
+  },
+  "todayTitle": {
+    "message": "Today",
+    "description": ""
+  },
+  "allTimeTitle": {
+    "message": "All Time",
+    "description": ""
+  },
+  "daysTitle": {
+    "message": "Days",
+    "description": ""
+  },
+  "dayTitle": {
+    "message": "Day",
+    "description": ""
+  },
+  "avgTitle": {
+    "message": "Avg",
+    "description": ""
+  },
+  "dayAvgTitle": {
+    "message": "-day avg",
+    "description": ""
+  },
+  "perDayTitle": {
+    "message": "/day",
+    "description": ""
+  },
+  "todayBrowserTimeToday": {
+    "message": "Total Time Today",
+    "description": ""
+  },
+  "ofYourTotalBrowserTime": {
+    "message": "of your total time",
+    "description": ""
+  },
+  "ofYourBrowserTimeToday": {
+    "message": "of your total time today",
+    "description": ""
+  },
+  "dailyTrendTitle": {
+    "message": "Daily Trend",
+    "description": ""
+  },
+  "blockedPageMessageTitle": {
+    "message": "Block Page Message",
+    "description": ""
+  },
+  "badgeTextStyleTitle": {
+    "message": "Select your icon style",
+    "description": ""
+  },
+  "blockedText": {
+    "message": "Blocked",
+    "description": ""
+  },
+  "blockedOnTitle": {
+    "message": "Blocked on",
+    "description": ""
+  },
+  "blockTitle": {
+    "message": "Block",
+    "description": ""
+  },
+  "unBlockTitle": {
+    "message": "Unblock",
+    "description": ""
+  },
+  "tempUnBlockTitle": {
+    "message": "Temporarily unblock for ",
+    "description": ""
+  },
+  "minutesTitle": {
+    "message": "Minutes",
+    "description": ""
+  },
+  "rankTitle": {
+    "message": "Overall Rank #",
+    "description": ""
+  },
+  "defaultBlockMsg": {
+    "message": "This page is blocked by TimeOWare extension.",
+    "description": ""
+  },
+  "updateButton": {
+    "message": "Update",
+    "description": ""
+  },
+  "resetToggleButton": {
+    "message": "Reset extension & all statistics...",
+    "description": ""
+  },
+  "resetCancelButton": {
+    "message": "Cancel reset",
+    "description": ""
+  },
+  "resetButton": {
+    "message": "Yes, reset everything!",
+    "description": ""
+  },
+  "blockedSinceStartTitle": {
+    "message": "",
+    "description": ""
+  },
+  "blockedSinceEndTitle": {
+    "message": "ago",
+    "description": ""
+  },
+  "activeTabTitle": {
+    "message": "Active tab",
+    "description": ""
+  },
+  "activeTabsTitle": {
+    "message": "Active tabs",
+    "description": ""
+  },
+  "idleSettingTitle": {
+    "message": "Stop tracking after being idle for",
+    "description": ""
+  },
+  "idleSettingDescription": {
+    "message": "Tabs playing audio will always be tracked (counted)",
+    "description": ""
+  },
+  "trackAsDomainTitle": {
+    "message": "Track following URLs as domains",
+    "description": ""
+  },
+  "dayHourMinuteSecond": {
+    "message": "d,h,m,s",
+    "description": ""
+  }
+}

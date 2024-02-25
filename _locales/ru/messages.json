@@ -1,0 +1,158 @@
+{
+    "name": {
+        "message": "TimeOware: следите за своим временем",
+        "description": ""
+    },
+    "short_name": {
+        "message": "TimeOware",
+        "description": ""
+    },
+    "description": {
+        "message": "TimeOware: следите за своим временем",
+        "description": ""
+    },
+    "languageCode": {
+        "message": "ru",
+        "description": ""
+    },
+    "languageTitle": {
+        "message": "Язык:",
+        "description": ""
+    },
+    "totalTitle": {
+        "message": "Общий",
+        "description": ""
+    },
+    "todayTitle": {
+        "message": "Сегодня",
+        "description": ""
+    },
+    "allTimeTitle": {
+        "message": "Все время",
+        "description": ""
+    },
+    "daysTitle": {
+        "message": "Дни",
+        "description": ""
+    },
+    "dayTitle": {
+        "message": "День",
+        "description": ""
+    },
+    "avgTitle": {
+        "message": "Среднее",
+        "description": ""
+    },
+    "dayAvgTitle": {
+        "message": "-среднее за день",
+        "description": ""
+    },
+    "perDayTitle": {
+        "message": "/день",
+        "description": ""
+    },
+    "todayBrowserTimeToday": {
+        "message": "Общее время сегодня",
+        "description": ""
+    },
+    "ofYourTotalBrowserTime": {
+        "message": "вашего общего времени",
+        "description": ""
+    },
+    "ofYourBrowserTimeToday": {
+        "message": "вашего общего времени сегодня",
+        "description": ""
+    },
+    "dailyTrendTitle": {
+        "message": "Ежедневный тренд",
+        "description": ""
+    },
+    "blockedPageMessageTitle": {
+        "message": "Блокировать сообщение на странице",
+        "description": ""
+    },
+    "badgeTextStyleTitle": {
+        "message": "Выберите стиль значка",
+        "description": ""
+    },
+    "blockedText": {
+        "message": "Заблокировано",
+        "description": ""
+    },
+    "blockedOnTitle": {
+        "message": "Заблокировано",
+        "description": ""
+    },
+    "blockTitle": {
+        "message": "Блокировать",
+        "description": ""
+    },
+    "unBlockTitle": {
+        "message": "Разблокировать",
+        "description": ""
+    },
+    "tempUnBlockTitle": {
+        "message": "Временно разблокировать для ",
+        "description": ""
+    },
+    "minutesTitle": {
+        "message": "Минуты",
+        "description": ""
+    },
+    "rankTitle": {
+        "message": "Общий рейтинг",
+        "description": ""
+    },
+    "defaultBlockMsg": {
+        "message": "Эта страница заблокирована расширением TimeOWare.",
+        "description": ""
+    },
+    "updateButton": {
+        "message": "Обновлять",
+        "description": ""
+    },
+    "resetToggleButton": {
+        "message": "Сбросить расширение",
+        "description": ""
+    },
+    "resetCancelButton": {
+        "message": "Отменить сброс",
+        "description": ""
+    },
+    "resetButton": {
+        "message": "Да, сбросить все!",
+        "description": ""
+    },
+    "blockedSinceStartTitle": {
+        "message": "",
+        "description": ""
+    },
+    "blockedSinceEndTitle": {
+        "message": "назад",
+        "description": ""
+    },
+    "activeTabTitle": {
+        "message": "Активная вкладка",
+        "description": ""
+    },
+    "activeTabsTitle": {
+        "message": "Активные вкладки",
+        "description": ""
+    },
+    "idleSettingTitle": {
+        "message": "Прекратить отслеживание после простоя в течение",
+        "description": ""
+    },
+    "idleSettingDescription": {
+        "message": "Вкладки, воспроизводящие звук, всегда будут отслеживаться (подсчитываться)",
+        "description": ""
+    },
+    "trackAsDomainTitle": {
+        "message": "Отслеживайте следующие URL-адреса как домены",
+        "description": ""
+    },
+    "dayHourMinuteSecond": {
+        "message": "д,ч,м,с",
+        "description": ""
+    }
+}
