@@ -1,158 +1,158 @@
 {
-    "name": {
-      "message": "TimeOware: Övervaka din tid",
-      "description": ""
-    },
-    "short_name": {
-      "message": "TimeOware",
-      "description": ""
-    },
-    "description": {
-      "message": "TimeOware: Övervaka din tid",
-      "description": ""
-    },
-    "languageCode": {
-      "message": "sv",
-      "description": ""
-    },
-    "languageTitle": {
-      "message": "Språk:",
-      "description": ""
-    },
-    "totalTitle": {
-      "message": "Total",
-      "description": ""
-    },
-    "todayTitle": {
-      "message": "I dag",
-      "description": ""
-    },
-    "allTimeTitle": {
-      "message": "Hela tiden",
-      "description": ""
-    },
-    "daysTitle": {
-      "message": "dagar",
-      "description": ""
-    },
-    "dayTitle": {
-      "message": "Dag",
-      "description": ""
-    },
-    "avgTitle": {
-      "message": "Genomsnittlig",
-      "description": ""
-    },
-    "dayAvgTitle": {
-      "message": "-dag i snitt",
-      "description": ""
-    },
-    "perDayTitle": {
-      "message": "/dag",
-      "description": ""
-    },
-    "todayBrowserTimeToday": {
-      "message": "Total tid idag",
-      "description": ""
-    },
-    "ofYourTotalBrowserTime": {
-      "message": "av din totala tid",
-      "description": ""
-    },
-    "ofYourBrowserTimeToday": {
-      "message": "av din totala tid idag",
-      "description": ""
-    },
-    "dailyTrendTitle": {
-      "message": "Daglig trend",
-      "description": ""
-    },
-    "blockedPageMessageTitle": {
-      "message": "Blockera sidmeddelande",
-      "description": ""
-    },
-    "badgeTextStyleTitle": {
-      "message": "Välj din ikonstil",
-      "description": ""
-    },
-    "blockedText": {
-      "message": "Blockerad",
-      "description": ""
-    },
-    "blockedOnTitle": {
-      "message": "Blockerad på",
-      "description": ""
-    },
-    "blockTitle": {
-      "message": "Blockera",
-      "description": ""
-    },
-    "unBlockTitle": {
-      "message": "Avblockera",
-      "description": ""
-    },
-    "tempUnBlockTitle": {
-      "message": "Avblockera tillfälligt för ",
-      "description": ""
-    },
-    "minutesTitle": {
-      "message": "Minuter",
-      "description": ""
-    },
-    "rankTitle": {
-      "message": "Övergripande ranking",
-      "description": ""
-    },
-    "defaultBlockMsg": {
-      "message": "Den här sidan är blockerad av TimeOWare-tillägget.",
-      "description": ""
-    },
-    "updateButton": {
-      "message": "Uppdatering",
-      "description": ""
-    },
-    "resetToggleButton": {
-      "message": "Återställ tillägget",
-      "description": ""
-    },
-    "resetCancelButton": {
-      "message": "Avbryt återställning",
-      "description": ""
-    },
-    "resetButton": {
-      "message": "Ja, återställ allt!",
-      "description": ""
-    },
-    "blockedSinceStartTitle": {
-      "message": "",
-      "description": ""
-    },
-    "blockedSinceEndTitle": {
-      "message": "sedan",
-      "description": ""
-    },
-    "activeTabTitle": {
-      "message": "Aktiv flik",
-      "description": ""
-    },
-    "activeTabsTitle": {
-      "message": "Aktiva flikar",
-      "description": ""
-    },
-    "idleSettingTitle": {
-      "message": "Sluta spåra efter att ha varit inaktiv för",
-      "description": ""
-    },
-    "idleSettingDescription": {
-      "message": "Flikar som spelar ljud kommer alltid att spåras (räknas)",
-      "description": ""
-    },
-    "trackAsDomainTitle": {
-      "message": "Spåra följande webbadresser som domäner",
-      "description": ""
-    },
-    "dayHourMinuteSecond": {
-      "message": "d,h,m,s",
-      "description": ""
-    }
+  "name": {
+    "message": "TimeOWare: Övervaka din tid",
+    "description": ""
+  },
+  "short_name": {
+    "message": "TimeOWare",
+    "description": ""
+  },
+  "description": {
+    "message": "TimeOWare: Övervaka din tid",
+    "description": ""
+  },
+  "languageCode": {
+    "message": "sv",
+    "description": ""
+  },
+  "languageTitle": {
+    "message": "Språk:",
+    "description": ""
+  },
+  "totalTitle": {
+    "message": "Total",
+    "description": ""
+  },
+  "todayTitle": {
+    "message": "I dag",
+    "description": ""
+  },
+  "allTimeTitle": {
+    "message": "Hela tiden",
+    "description": ""
+  },
+  "daysTitle": {
+    "message": "dagar",
+    "description": ""
+  },
+  "dayTitle": {
+    "message": "Dag",
+    "description": ""
+  },
+  "avgTitle": {
+    "message": "Genomsnittlig",
+    "description": ""
+  },
+  "dayAvgTitle": {
+    "message": "-dag i snitt",
+    "description": ""
+  },
+  "perDayTitle": {
+    "message": "/dag",
+    "description": ""
+  },
+  "todayBrowserTimeToday": {
+    "message": "Total tid idag",
+    "description": ""
+  },
+  "ofYourTotalBrowserTime": {
+    "message": "av din totala tid",
+    "description": ""
+  },
+  "ofYourBrowserTimeToday": {
+    "message": "av din totala tid idag",
+    "description": ""
+  },
+  "dailyTrendTitle": {
+    "message": "Daglig trend",
+    "description": ""
+  },
+  "blockedPageMessageTitle": {
+    "message": "Blockera sidmeddelande",
+    "description": ""
+  },
+  "badgeTextStyleTitle": {
+    "message": "Välj din ikonstil",
+    "description": ""
+  },
+  "blockedText": {
+    "message": "Blockerad",
+    "description": ""
+  },
+  "blockedOnTitle": {
+    "message": "Blockerad på",
+    "description": ""
+  },
+  "blockTitle": {
+    "message": "Blockera",
+    "description": ""
+  },
+  "unBlockTitle": {
+    "message": "Avblockera",
+    "description": ""
+  },
+  "tempUnBlockTitle": {
+    "message": "Avblockera tillfälligt för ",
+    "description": ""
+  },
+  "minutesTitle": {
+    "message": "Minuter",
+    "description": ""
+  },
+  "rankTitle": {
+    "message": "Övergripande ranking",
+    "description": ""
+  },
+  "defaultBlockMsg": {
+    "message": "Den här sidan är blockerad av TimeOWare-tillägget.",
+    "description": ""
+  },
+  "updateButton": {
+    "message": "Uppdatering",
+    "description": ""
+  },
+  "resetToggleButton": {
+    "message": "Återställ tillägget",
+    "description": ""
+  },
+  "resetCancelButton": {
+    "message": "Avbryt återställning",
+    "description": ""
+  },
+  "resetButton": {
+    "message": "Ja, återställ allt!",
+    "description": ""
+  },
+  "blockedSinceStartTitle": {
+    "message": "",
+    "description": ""
+  },
+  "blockedSinceEndTitle": {
+    "message": "sedan",
+    "description": ""
+  },
+  "activeTabTitle": {
+    "message": "Aktiv flik",
+    "description": ""
+  },
+  "activeTabsTitle": {
+    "message": "Aktiva flikar",
+    "description": ""
+  },
+  "idleSettingTitle": {
+    "message": "Sluta spåra efter att ha varit inaktiv för",
+    "description": ""
+  },
+  "idleSettingDescription": {
+    "message": "Flikar som spelar ljud kommer alltid att spåras (räknas)",
+    "description": ""
+  },
+  "trackAsDomainTitle": {
+    "message": "Spåra följande webbadresser som domäner",
+    "description": ""
+  },
+  "dayHourMinuteSecond": {
+    "message": "d,h,m,s",
+    "description": ""
   }
+}

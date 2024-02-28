@@ -1,14 +1,14 @@
 {
     "name": {
-        "message": "TimeOware: 시간을 모니터링하세요",
+        "message": "TimeOWare: 시간을 모니터링하세요",
         "description": ""
     },
     "short_name": {
-        "message": "TimeOware",
+        "message": "TimeOWare",
         "description": ""
     },
     "description": {
-        "message": "TimeOware: 시간을 모니터링하세요",
+        "message": "TimeOWare: 시간을 모니터링하세요",
         "description": ""
     },
     "languageCode": {

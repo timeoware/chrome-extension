@@ -1,158 +1,158 @@
 {
-    "name": {
-      "message": "TimeOware: houd uw tijd in de gaten",
-      "description": ""
-    },
-    "short_name": {
-      "message": "TimeOware",
-      "description": ""
-    },
-    "description": {
-      "message": "TimeOware: houd uw tijd in de gaten",
-      "description": ""
-    },
-    "languageCode": {
-      "message": "nl",
-      "description": ""
-    },
-    "languageTitle": {
-      "message": "Taal:",
-      "description": ""
-    },
-    "totalTitle": {
-      "message": "Totaal",
-      "description": ""
-    },
-    "todayTitle": {
-      "message": "Vandaag",
-      "description": ""
-    },
-    "allTimeTitle": {
-      "message": "Altijd",
-      "description": ""
-    },
-    "daysTitle": {
-      "message": "Dagen",
-      "description": ""
-    },
-    "dayTitle": {
-      "message": "Dag",
-      "description": ""
-    },
-    "avgTitle": {
-      "message": "Gem",
-      "description": ""
-    },
-    "dayAvgTitle": {
-      "message": "-dag gem",
-      "description": ""
-    },
-    "perDayTitle": {
-      "message": "/dag",
-      "description": ""
-    },
-    "todayBrowserTimeToday": {
-      "message": "Totale tijd vandaag",
-      "description": ""
-    },
-    "ofYourTotalBrowserTime": {
-      "message": "van uw totale tijd",
-      "description": ""
-    },
-    "ofYourBrowserTimeToday": {
-      "message": "van uw totale tijd vandaag",
-      "description": ""
-    },
-    "dailyTrendTitle": {
-      "message": "Dagelijkse trend",
-      "description": ""
-    },
-    "blockedPageMessageTitle": {
-      "message": "Paginabericht blokkeren",
-      "description": ""
-    },
-    "badgeTextStyleTitle": {
-      "message": "Selecteer uw pictogramstijl",
-      "description": ""
-    },
-    "blockedText": {
-      "message": "Geblokkeerd",
-      "description": ""
-    },
-    "blockedOnTitle": {
-      "message": "Geblokkeerd",
-      "description": ""
-    },
-    "blockTitle": {
-      "message": "Blok",
-      "description": ""
-    },
-    "unBlockTitle": {
-      "message": "Deblokkeren",
-      "description": ""
-    },
-    "tempUnBlockTitle": {
-      "message": "Tijdelijk deblokkeren voor ",
-      "description": ""
-    },
-    "minutesTitle": {
-      "message": "Minuten",
-      "description": ""
-    },
-    "rankTitle": {
-      "message": "Algemene rang",
-      "description": ""
-    },
-    "defaultBlockMsg": {
-      "message": "Deze pagina wordt geblokkeerd door de TimeOWare-extensie.",
-      "description": ""
-    },
-    "updateButton": {
-      "message": "Update",
-      "description": ""
-    },
-    "resetToggleButton": {
-      "message": "Extensie opnieuw instellen",
-      "description": ""
-    },
-    "resetCancelButton": {
-      "message": "Resetten annuleren",
-      "description": ""
-    },
-    "resetButton": {
-      "message": "Ja, alles resetten!",
-      "description": ""
-    },
-    "blockedSinceStartTitle": {
-      "message": "",
-      "description": ""
-    },
-    "blockedSinceEndTitle": {
-      "message": "geleden",
-      "description": ""
-    },
-    "activeTabTitle": {
-      "message": "Actief tabblad",
-      "description": ""
-    },
-    "activeTabsTitle": {
-      "message": "Actieve tabbladen",
-      "description": ""
-    },
-    "idleSettingTitle": {
-      "message": "Stop met volgen nadat u een tijdje inactief bent geweest",
-      "description": ""
-    },
-    "idleSettingDescription": {
-      "message": "Tabbladen die audio afspelen, worden altijd bijgehouden (geteld)",
-      "description": ""
-    },
-    "trackAsDomainTitle": {
-      "message": "Volg de volgende URL's als domeinen",
-      "description": ""
-    },
-    "dayHourMinuteSecond": {
-      "message": "d,h,m,s",
-      "description": ""
-    }
+  "name": {
+    "message": "TimeOWare: houd uw tijd in de gaten",
+    "description": ""
+  },
+  "short_name": {
+    "message": "TimeOWare",
+    "description": ""
+  },
+  "description": {
+    "message": "TimeOWare: houd uw tijd in de gaten",
+    "description": ""
+  },
+  "languageCode": {
+    "message": "nl",
+    "description": ""
+  },
+  "languageTitle": {
+    "message": "Taal:",
+    "description": ""
+  },
+  "totalTitle": {
+    "message": "Totaal",
+    "description": ""
+  },
+  "todayTitle": {
+    "message": "Vandaag",
+    "description": ""
+  },
+  "allTimeTitle": {
+    "message": "Altijd",
+    "description": ""
+  },
+  "daysTitle": {
+    "message": "Dagen",
+    "description": ""
+  },
+  "dayTitle": {
+    "message": "Dag",
+    "description": ""
+  },
+  "avgTitle": {
+    "message": "Gem",
+    "description": ""
+  },
+  "dayAvgTitle": {
+    "message": "-dag gem",
+    "description": ""
+  },
+  "perDayTitle": {
+    "message": "/dag",
+    "description": ""
+  },
+  "todayBrowserTimeToday": {
+    "message": "Totale tijd vandaag",
+    "description": ""
+  },
+  "ofYourTotalBrowserTime": {
+    "message": "van uw totale tijd",
+    "description": ""
+  },
+  "ofYourBrowserTimeToday": {
+    "message": "van uw totale tijd vandaag",
+    "description": ""
+  },
+  "dailyTrendTitle": {
+    "message": "Dagelijkse trend",
+    "description": ""
+  },
+  "blockedPageMessageTitle": {
+    "message": "Paginabericht blokkeren",
+    "description": ""
+  },
+  "badgeTextStyleTitle": {
+    "message": "Selecteer uw pictogramstijl",
+    "description": ""
+  },
+  "blockedText": {
+    "message": "Geblokkeerd",
+    "description": ""
+  },
+  "blockedOnTitle": {
+    "message": "Geblokkeerd",
+    "description": ""
+  },
+  "blockTitle": {
+    "message": "Blok",
+    "description": ""
+  },
+  "unBlockTitle": {
+    "message": "Deblokkeren",
+    "description": ""
+  },
+  "tempUnBlockTitle": {
+    "message": "Tijdelijk deblokkeren voor ",
+    "description": ""
+  },
+  "minutesTitle": {
+    "message": "Minuten",
+    "description": ""
+  },
+  "rankTitle": {
+    "message": "Algemene rang",
+    "description": ""
+  },
+  "defaultBlockMsg": {
+    "message": "Deze pagina wordt geblokkeerd door de TimeOWare-extensie.",
+    "description": ""
+  },
+  "updateButton": {
+    "message": "Update",
+    "description": ""
+  },
+  "resetToggleButton": {
+    "message": "Extensie opnieuw instellen",
+    "description": ""
+  },
+  "resetCancelButton": {
+    "message": "Resetten annuleren",
+    "description": ""
+  },
+  "resetButton": {
+    "message": "Ja, alles resetten!",
+    "description": ""
+  },
+  "blockedSinceStartTitle": {
+    "message": "",
+    "description": ""
+  },
+  "blockedSinceEndTitle": {
+    "message": "geleden",
+    "description": ""
+  },
+  "activeTabTitle": {
+    "message": "Actief tabblad",
+    "description": ""
+  },
+  "activeTabsTitle": {
+    "message": "Actieve tabbladen",
+    "description": ""
+  },
+  "idleSettingTitle": {
+    "message": "Stop met volgen nadat u een tijdje inactief bent geweest",
+    "description": ""
+  },
+  "idleSettingDescription": {
+    "message": "Tabbladen die audio afspelen, worden altijd bijgehouden (geteld)",
+    "description": ""
+  },
+  "trackAsDomainTitle": {
+    "message": "Volg de volgende URL's als domeinen",
+    "description": ""
+  },
+  "dayHourMinuteSecond": {
+    "message": "d,h,m,s",
+    "description": ""
   }
+}

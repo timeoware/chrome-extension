@@ -1,158 +1,158 @@
 {
-    "name": {
-      "message": "TimeOware: بر زمان خود نظارت کنید",
-      "description": ""
-    },
-    "short_name": {
-      "message": "TimeOware",
-      "description": ""
-    },
-    "description": {
-      "message": "TimeOware: بر زمان خود نظارت کنید",
-      "description": ""
-    },
-    "languageCode": {
-      "message": "fa",
-      "description": ""
-    },
-    "languageTitle": {
-      "message": "زبان:",
-      "description": ""
-    },
-    "totalTitle": {
-      "message": "جمع",
-      "description": ""
-    },
-    "todayTitle": {
-      "message": "امروز",
-      "description": ""
-    },
-    "allTimeTitle": {
-      "message": "همیشه",
-      "description": ""
-    },
-    "daysTitle": {
-      "message": "روزها",
-      "description": ""
-    },
-    "dayTitle": {
-      "message": "روز",
-      "description": ""
-    },
-    "avgTitle": {
-      "message": "میانگین",
-      "description": ""
-    },
-    "dayAvgTitle": {
-      "message": "میانگین روز",
-      "description": ""
-    },
-    "perDayTitle": {
-      "message": "/ روز",
-      "description": ""
-    },
-    "todayBrowserTimeToday": {
-      "message": "کل زمان امروز",
-      "description": ""
-    },
-    "ofYourTotalBrowserTime": {
-      "message": "از کل زمان شما",
-      "description": ""
-    },
-    "ofYourBrowserTimeToday": {
-      "message": "از کل زمان امروز شما",
-      "description": ""
-    },
-    "dailyTrendTitle": {
-      "message": "روند روزانه",
-      "description": ""
-    },
-    "blockedPageMessageTitle": {
-      "message": "مسدود کردن پیام صفحه",
-      "description": ""
-    },
-    "badgeTextStyleTitle": {
-      "message": "سبک نماد خود را انتخاب کنید",
-      "description": ""
-    },
-    "blockedText": {
-      "message": "مسدود",
-      "description": ""
-    },
-    "blockedOnTitle": {
-      "message": "مسدود شده است",
-      "description": ""
-    },
-    "blockTitle": {
-      "message": "مسدود کردن",
-      "description": ""
-    },
-    "unBlockTitle": {
-      "message": "رفع انسداد",
-      "description": ""
-    },
-    "tempUnBlockTitle": {
-      "message": "رفع انسداد موقت برای ",
-      "description": ""
-    },
-    "minutesTitle": {
-      "message": "دقایق",
-      "description": ""
-    },
-    "rankTitle": {
-      "message": "رتبه کلی",
-      "description": ""
-    },
-    "defaultBlockMsg": {
-      "message": "این صفحه توسط افزونه TimeOWare مسدود شده است.",
-      "description": ""
-    },
-    "updateButton": {
-      "message": "به روز رسانی",
-      "description": ""
-    },
-    "resetToggleButton": {
-      "message": "پسوند را بازنشانی کنید",
-      "description": ""
-    },
-    "resetCancelButton": {
-      "message": "لغو تنظیم مجدد",
-      "description": ""
-    },
-    "resetButton": {
-      "message": "بله، همه چیز را بازنشانی کنید!",
-      "description": ""
-    },
-    "blockedSinceStartTitle": {
-      "message": "",
-      "description": ""
-    },
-    "blockedSinceEndTitle": {
-      "message": "پیش",
-      "description": ""
-    },
-    "activeTabTitle": {
-      "message": "برگه فعال",
-      "description": ""
-    },
-    "activeTabsTitle": {
-      "message": "برگه های فعال",
-      "description": ""
-    },
-    "idleSettingTitle": {
-      "message": "توقف ردیابی پس از بیکاری برای",
-      "description": ""
-    },
-    "idleSettingDescription": {
-      "message": "برگه‌های پخش صدا همیشه ردیابی می‌شوند (شمارش می‌شوند)",
-      "description": ""
-    },
-    "trackAsDomainTitle": {
-      "message": "URL های زیر را به عنوان دامنه ردیابی کنید",
-      "description": ""
-    },
-    "dayHourMinuteSecond": {
-      "message": "d، h، m، s",
-      "description": ""
-    }
+  "name": {
+    "message": "TimeOWare: بر زمان خود نظارت کنید",
+    "description": ""
+  },
+  "short_name": {
+    "message": "TimeOWare",
+    "description": ""
+  },
+  "description": {
+    "message": "TimeOWare: بر زمان خود نظارت کنید",
+    "description": ""
+  },
+  "languageCode": {
+    "message": "fa",
+    "description": ""
+  },
+  "languageTitle": {
+    "message": "زبان:",
+    "description": ""
+  },
+  "totalTitle": {
+    "message": "جمع",
+    "description": ""
+  },
+  "todayTitle": {
+    "message": "امروز",
+    "description": ""
+  },
+  "allTimeTitle": {
+    "message": "همیشه",
+    "description": ""
+  },
+  "daysTitle": {
+    "message": "روزها",
+    "description": ""
+  },
+  "dayTitle": {
+    "message": "روز",
+    "description": ""
+  },
+  "avgTitle": {
+    "message": "میانگین",
+    "description": ""
+  },
+  "dayAvgTitle": {
+    "message": "میانگین روز",
+    "description": ""
+  },
+  "perDayTitle": {
+    "message": "/ روز",
+    "description": ""
+  },
+  "todayBrowserTimeToday": {
+    "message": "کل زمان امروز",
+    "description": ""
+  },
+  "ofYourTotalBrowserTime": {
+    "message": "از کل زمان شما",
+    "description": ""
+  },
+  "ofYourBrowserTimeToday": {
+    "message": "از کل زمان امروز شما",
+    "description": ""
+  },
+  "dailyTrendTitle": {
+    "message": "روند روزانه",
+    "description": ""
+  },
+  "blockedPageMessageTitle": {
+    "message": "مسدود کردن پیام صفحه",
+    "description": ""
+  },
+  "badgeTextStyleTitle": {
+    "message": "سبک نماد خود را انتخاب کنید",
+    "description": ""
+  },
+  "blockedText": {
+    "message": "مسدود",
+    "description": ""
+  },
+  "blockedOnTitle": {
+    "message": "مسدود شده است",
+    "description": ""
+  },
+  "blockTitle": {
+    "message": "مسدود کردن",
+    "description": ""
+  },
+  "unBlockTitle": {
+    "message": "رفع انسداد",
+    "description": ""
+  },
+  "tempUnBlockTitle": {
+    "message": "رفع انسداد موقت برای ",
+    "description": ""
+  },
+  "minutesTitle": {
+    "message": "دقایق",
+    "description": ""
+  },
+  "rankTitle": {
+    "message": "رتبه کلی",
+    "description": ""
+  },
+  "defaultBlockMsg": {
+    "message": "این صفحه توسط افزونه TimeOWare مسدود شده است.",
+    "description": ""
+  },
+  "updateButton": {
+    "message": "به روز رسانی",
+    "description": ""
+  },
+  "resetToggleButton": {
+    "message": "پسوند را بازنشانی کنید",
+    "description": ""
+  },
+  "resetCancelButton": {
+    "message": "لغو تنظیم مجدد",
+    "description": ""
+  },
+  "resetButton": {
+    "message": "بله، همه چیز را بازنشانی کنید!",
+    "description": ""
+  },
+  "blockedSinceStartTitle": {
+    "message": "",
+    "description": ""
+  },
+  "blockedSinceEndTitle": {
+    "message": "پیش",
+    "description": ""
+  },
+  "activeTabTitle": {
+    "message": "برگه فعال",
+    "description": ""
+  },
+  "activeTabsTitle": {
+    "message": "برگه های فعال",
+    "description": ""
+  },
+  "idleSettingTitle": {
+    "message": "توقف ردیابی پس از بیکاری برای",
+    "description": ""
+  },
+  "idleSettingDescription": {
+    "message": "برگه‌های پخش صدا همیشه ردیابی می‌شوند (شمارش می‌شوند)",
+    "description": ""
+  },
+  "trackAsDomainTitle": {
+    "message": "URL های زیر را به عنوان دامنه ردیابی کنید",
+    "description": ""
+  },
+  "dayHourMinuteSecond": {
+    "message": "d، h، m، s",
+    "description": ""
   }
+}

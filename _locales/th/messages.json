@@ -1,6 +1,6 @@
 {
     "name": {
-        "message": "TimeOware: ติดตามเวลาของคุณ",
+        "message": "TimeOWare: ติดตามเวลาของคุณ",
         "description": ""
     },
     "short_name": {
@@ -8,7 +8,7 @@
         "description": ""
     },
     "description": {
-        "message": "TimeOware: ติดตามเวลาของคุณ",
+        "message": "TimeOWare: ติดตามเวลาของคุณ",
         "description": ""
     },
     "languageCode": {
@@ -104,7 +104,7 @@
         "description": ""
     },
     "defaultBlockMsg": {
-        "message": "หน้านี้ถูกบล็อกโดยส่วนขยาย TimeOware",
+        "message": "หน้านี้ถูกบล็อกโดยส่วนขยาย TimeOWare",
         "description": ""
     },
     "updateButton": {
