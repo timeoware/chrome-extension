@@ -101,15 +101,23 @@
                         </div>
                     </div>
 
-                    <div id="blockDiv" class="mt-1 align-middle" style="height:33px;">
-                        <img id="blockImgWait" class="blockImg pointer" src="/images/loading.gif"
-                            style="display:none;" />
-                        <img id="blockImgOff" class="blockImg pointer" src="/images/block-off.png"
-                            style="display:none; height: 25px;" />
-                        <img id="blockImgOn" class="blockImg pointer" src="/images/block-on.png"
-                            style="display:none; height: 25px;" />
+                    <div class="mt-1 align-middle" style="height:33px;">
+                        <div id="blockWait" style="display:none">
+                            <img src="/images/loading.gif" />
+                        </div>
+                        <div id="blockOn" style="display:none" class="blockToggle pointer">
+                            <div class="d-flex flex-row align-items-center small">
+                                <div><img src="/images/block-on.png" /></div>
+                                <div id="blockOnText" class="text-danger"></div>
+                            </div>
+                        </div>
+                        <div id="blockOff" style="display:none" class="blockToggle pointer">
+                            <div class="d-flex flex-row align-items-center small">
+                                <div><img src="/images/block-off.png" /></div>
+                                <div id="blockOffText"></div>
+                            </div>
+                        </div>
                     </div>
-
 
                 </div>
             </div>

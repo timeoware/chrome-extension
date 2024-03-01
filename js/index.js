@@ -22,6 +22,10 @@ const loadTab = async () => {
     $('#svg').html('');
     $('#svg').append(baseCircle);
     $('#svg').append(centerCircle);
+
+    $('#blockOnText').html(appSettings.i18n.unBlockTitle);
+    $('#blockOffText').html(appSettings.i18n.blockTitle);
+
     $('#todayTotalTime').html(formatTime(stats.todayTotalMinutes));
     $('.extension-icon').attr('src', stats.allDomains[tabDomain].icon);
     $('#timeUnderIcon').html(formatTime(tabDomainData.todayMinutes));
@@ -120,15 +124,15 @@ const printCenterText = (domain) => {
         generateDomainBarChart(domain);
         $('#domainBarChartWrapper').show();
     }
-    $('#blockDiv').attr("block-domain", domain);
+    $('.blockToggle').attr("block-domain", domain);
 
-    $('#blockImgWait').hide();
-    $('#blockImgOn').hide();
-    $('#blockImgOff').hide();
+    $('#blockWait').hide();
+    $('#blockOn').hide();
+    $('#blockOff').hide();
     if (stats.allDomains[domain].isBlocked)
-        $('#blockImgOn').show();
+        $('#blockOn').show();
     else
-        $('#blockImgOff').show();
+        $('#blockOff').show();
 
 }
 
@@ -208,7 +212,7 @@ const generateRankList = (domain) => {
         let allPercentage = stats.allDomains[rdomain].totalPercentage;
         let allBarWidth = Math.ceil(barWidth * allPercentage / 100);
         let allRank = '#' + (stats.allDomains[rdomain].index + 1);
-        let blockImg = 'images/block-' + (stats.allDomains[rdomain].isBlocked ? 'on.png' : 'off.png');
+        let rBlockImg = 'images/block-' + (stats.allDomains[rdomain].isBlocked ? 'on.png' : 'off.png');
 
         let bgColor = '#e9ecef';
         if (rdomain == domain)
@@ -219,7 +223,7 @@ const generateRankList = (domain) => {
                 <table class="w-100">
                     <tr>
                         <td><img title="${appSettings.i18n.rankTitle} ${i + 1}" src="${stats.allDomains[rdomain].favIconUrl}" style="max-width:20px; max-height:20px;"/></td>
-                        <td colspan="5" class="fw-bold" block-domain="${rdomain}">${rdomain} <img class="blockImg pointer" src="${blockImg}" style="width:15px;" />
+                        <td colspan="5" class="fw-bold">${rdomain} <img block-domain="${rdomain}" class="blockToggle pointer" src="${rBlockImg}" style="width:15px;" />
                         </td>
                     </tr>
                     <tr>
@@ -344,12 +348,12 @@ $(function () {
         await refresh();
     });
 
-    $(document).on('click', '.blockImg', async function (e) {
-        $('#blockImgWait').show();
-        $('#blockImgOn').hide();
-        $('#blockImgOff').hide();
+    $(document).on('click', '.blockToggle', async function (e) {
+        $('#blockWait').show();
+        $('#blockOn').hide();
+        $('#blockOff').hide();
         let el = e.target;
-        let domain = $(el).parent().attr('block-domain');
+        let domain = $(this).attr('block-domain');
         await toggleBlock(domain);
         onDomain = domain;
         await refresh();
