@@ -8,7 +8,7 @@
         "description": ""
     },
     "description": {
-        "message": "TimeOWare: مراقبة وقتك",
+        "message": "كن على دراية بالمكان الذي تقضي فيه وقتك على الإنترنت",
         "description": ""
     },
     "languageCode": {
@@ -152,7 +152,7 @@
         "description": ""
     },
     "dayHourMinuteSecond": {
-        "message": "د، ح، م، ق",
+        "message": "ي, س, د, ث",
         "description": ""
     }
 }

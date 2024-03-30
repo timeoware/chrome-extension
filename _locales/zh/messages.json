@@ -1,126 +1,126 @@
 {
     "name": {
-        "message": "TimeOWare: Theo dõi thời gian của bạn",
+        "message": "时代软件",
         "description": ""
     },
     "short_name": {
-        "message": "TimeOWare",
+        "message": "时代软件",
         "description": ""
     },
     "description": {
-        "message": "Hãy nhận biết nơi bạn dành thời gian trực tuyến.",
+        "message": "注意您上网的时间都花在哪里。",
         "description": ""
     },
     "languageCode": {
-        "message": "vi",
+        "message": "zh",
         "description": ""
     },
     "languageTitle": {
-        "message": "Ngôn ngữ:",
+        "message": "语言：",
         "description": ""
     },
     "totalTitle": {
-        "message": "Tổng cộng",
+        "message": "全部的",
         "description": ""
     },
     "todayTitle": {
-        "message": "Hôm nay",
+        "message": "今天",
         "description": ""
     },
     "allTimeTitle": {
-        "message": "mọi lúc",
+        "message": "整天",
         "description": ""
     },
     "daysTitle": {
-        "message": "Ngày",
+        "message": "天",
         "description": ""
     },
     "dayTitle": {
-        "message": "Ngày",
+        "message": "天",
         "description": ""
     },
     "avgTitle": {
-        "message": "Trung bình",
+        "message": "平均",
         "description": ""
     },
     "dayAvgTitle": {
-        "message": "-ngày trung bình",
+        "message": "天平均",
         "description": ""
     },
     "perDayTitle": {
-        "message": "/ngày",
+        "message": "/天",
         "description": ""
     },
     "todayBrowserTimeToday": {
-        "message": "Tổng thời gian hôm nay",
+        "message": "今天总时间",
         "description": ""
     },
     "ofYourTotalBrowserTime": {
-        "message": "trong tổng thời gian của bạn",
+        "message": "占你总时间的",
         "description": ""
     },
     "ofYourBrowserTimeToday": {
-        "message": "trong tổng thời gian của bạn ngày hôm nay",
+        "message": "占您今天总时间的",
         "description": ""
     },
     "dailyTrendTitle": {
-        "message": "Xu hướng hàng ngày",
+        "message": "每日趋势",
         "description": ""
     },
     "blockedPageMessageTitle": {
-        "message": "Chặn tin nhắn trang",
+        "message": "阻止页面消息",
         "description": ""
     },
     "badgeTextStyleTitle": {
-        "message": "Chọn kiểu biểu tượng của bạn",
+        "message": "选择您的图标样式",
         "description": ""
     },
     "blockedText": {
-        "message": "Bị chặn",
+        "message": "被阻止",
         "description": ""
     },
     "blockedOnTitle": {
-        "message": "Bị chặn trên",
+        "message": "被阻止于",
         "description": ""
     },
     "blockTitle": {
-        "message": "Khối",
+        "message": "堵塞",
         "description": ""
     },
     "unBlockTitle": {
-        "message": "Mở khóa",
+        "message": "解锁",
         "description": ""
     },
     "tempUnBlockTitle": {
-        "message": "Tạm thời bỏ chặn cho ",
+        "message": "暂时解锁 ",
         "description": ""
     },
     "minutesTitle": {
-        "message": "Phút",
+        "message": "分钟",
         "description": ""
     },
     "rankTitle": {
-        "message": "Tổng xếp hạng",
+        "message": "总排名",
         "description": ""
     },
     "defaultBlockMsg": {
-        "message": "Trang này bị chặn bởi tiện ích mở rộng TimeOWare.",
+        "message": "该页面被 TimeOWare 扩展阻止。",
         "description": ""
     },
     "updateButton": {
-        "message": "Cập nhật",
+        "message": "更新",
         "description": ""
     },
     "resetToggleButton": {
-        "message": "Đặt lại tiện ích mở rộng",
+        "message": "重置分机",
         "description": ""
     },
     "resetCancelButton": {
-        "message": "Hủy đặt lại",
+        "message": "取消重置",
         "description": ""
     },
     "resetButton": {
-        "message": "Có, thiết lập lại mọi thứ!",
+        "message": "是的，重置一切！",
         "description": ""
     },
     "blockedSinceStartTitle": {
@@ -128,31 +128,31 @@
         "description": ""
     },
     "blockedSinceEndTitle": {
-        "message": "trước kia",
+        "message": "前",
         "description": ""
     },
     "activeTabTitle": {
-        "message": "Tab đang hoạt động",
+        "message": "活动选项卡",
         "description": ""
     },
     "activeTabsTitle": {
-        "message": "Tab hoạt động",
+        "message": "活动选项卡",
         "description": ""
     },
     "idleSettingTitle": {
-        "message": "Dừng theo dõi sau khi không hoạt động trong một thời gian",
+        "message": "闲置一段时间后停止跟踪",
         "description": ""
     },
     "idleSettingDescription": {
-        "message": "Các tab phát âm thanh sẽ luôn được theo dõi (được tính)",
+        "message": "播放音频的选项卡将始终被跟踪（计数）",
         "description": ""
     },
     "trackAsDomainTitle": {
-        "message": "Theo dõi các URL sau dưới dạng tên miền",
+        "message": "将以下 URL 作为域进行跟踪",
         "description": ""
     },
     "dayHourMinuteSecond": {
-        "message": "d,h,m,s",
+        "message": "日,时,分,秒",
         "description": ""
     }
 }

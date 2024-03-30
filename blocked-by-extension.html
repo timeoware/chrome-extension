@@ -30,12 +30,12 @@
 
     <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100">
 
-        <div class="bg-dark text-light rounded p-5 text-center" style="max-width: 800px;">
+        <div class="bg-dark text-light rounded p-5 text-center" style="max-width: 800px; overflow:auto;">
 
             <img class="fav-icon img-fluid" />
             <div id="domain" class="fs-3 text-light mb-3"></div>
 
-            <div id="msg" class="fs-2 text-warning mb-3"></div>
+            <div id="msg" class="fs-3 text-warning mb-3" style="max-height: 313px; overflow:auto;"></div>
 
             <div class="d-flex flex-row justify-content-center gap-2">
                 <div id="blockedOnTitle" class="fs-4 text-light"></div>
@@ -95,7 +95,7 @@
             </div>
         </div>
         <div class="offcanvas-body py-1">
-            <div class="mt-2">
+            <div class="mt-2 h-100">
                 <div id="blockedPageMessageTitle" class="small fw-bold mb-1"></div>
                 <div class="bg-secondary p-1 rounded">
                     <textarea id="blockMsg" class="form-control form-control-sm" rows="15"></textarea>

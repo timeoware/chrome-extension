@@ -8,7 +8,7 @@
         "description": ""
     },
     "description": {
-        "message": "TimeOWare: 時間を監視する",
+        "message": "オンラインでどこに時間を費やすかに注意してください。",
         "description": ""
     },
     "languageCode": {
@@ -152,7 +152,7 @@
         "description": ""
     },
     "dayHourMinuteSecond": {
-        "message": "d、h、m、s",
+        "message": "日,時,分,秒",
         "description": ""
     }
 }

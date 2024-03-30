@@ -8,7 +8,7 @@
     "description": ""
   },
   "description": {
-    "message": "TimeOWare: відстежуйте свій час",
+    "message": "Пам’ятайте, де ви проводите час в Інтернеті.",
     "description": ""
   },
   "languageCode": {
@@ -152,7 +152,7 @@
     "description": ""
   },
   "dayHourMinuteSecond": {
-    "message": "д, год, м, с",
+    "message": "д, г, хв, с",
     "description": ""
   }
 }

@@ -1,6 +1,6 @@
 ﻿{
   "name": {
-    "message": "TimeOWare: Monitor Your Time & Block Websites",
+    "message": "TimeOWare",
     "description": ""
   },
   "short_name": {
@@ -8,7 +8,7 @@
     "description": ""
   },
   "description": {
-    "message": "TimeOWare: Monitor Your Time & Block Websites",
+    "message": "Be aware of where you spend your time online.",
     "description": ""
   },
   "languageCode": {

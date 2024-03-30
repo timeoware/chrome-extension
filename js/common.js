@@ -1,6 +1,6 @@
 let stats;
 let appSettings = {};
-const availableLangs = ['ar', 'de', 'en', 'es', 'fr', 'id', 'ms', 'ru', 'tr', 'ta', 'bn', 'nl', 'sv', 'pl', 'ko', 'th', 'it', 'hi', 'fa', 'pt', 'ja', 'vi', 'uk'];
+const availableLangs = ['ar', 'de', 'en', 'es', 'fr', 'id', 'ms', 'ru', 'tr', 'ta', 'bn', 'nl', 'sv', 'pl', 'ko', 'th', 'it', 'hi', 'fa', 'pt', 'ja', 'vi', 'uk', 'zh'];
 const ignoreDomains = ['InvalidURL', ''];
 const colors = ["white", "whitesmoke"];
 const hiliteColor = '#ea4335';
