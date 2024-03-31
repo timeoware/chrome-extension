@@ -193,7 +193,7 @@ const updateDomain = async (domain, favIconUrl, icon) => {
         const request = index.get(domain);
         request.onsuccess = function () {
             const record = request.result;
-            record.favIconUrl = favIconUrl;
+            record.favIconUrl = goFavIconUrl(favIconUrl);
             record.icon = icon;
             store.put(record);
             resolve();
@@ -265,7 +265,6 @@ const getDomainID = (domain) => {
 }
 
 const getSetDomain = async (domain, favIconUrl) => {
-
     return new Promise((resolve) => {
         const store = db.transaction(domainTable, 'readwrite').objectStore(domainTable);
         const index = store.index("domain");
@@ -275,16 +274,25 @@ const getSetDomain = async (domain, favIconUrl) => {
                 resolve(cursor.value);
             }
             else {
-                if (favIconUrl && favIconUrl.includes('file://')) {
-                    favIconUrl = defaultFavIcon;
-                }
-                const item = { domain: domain, favIconUrl: favIconUrl ?? defaultFavIcon, isBlocked: false };
+                const item = { domain: domain, favIconUrl: goFavIconUrl(favIconUrl), isBlocked: false };
+                console.log(item);
                 store.add(item);
                 resolve(item);
             }
         };
     });
 };
+
+
+const goFavIconUrl = (favIconUrl) => {
+    if (!favIconUrl ||
+        favIconUrl == '' ||
+        favIconUrl.includes('file://') ||
+        favIconUrl.includes('chrome-extension://')) {
+        favIconUrl = defaultFavIcon;
+    }
+    return favIconUrl;
+}
 
 const getToday = () => {
     return new Date().toLocaleDateString('en-CA') /* yyy-mm-dd */
