@@ -1,6 +1,6 @@
 let stats;
 let appSettings = {};
-const availableLangs = ['ar', 'de', 'en', 'es', 'fr', 'id', 'ms', 'ru', 'tr', 'ta', 'bn', 'nl', 'sv', 'pl', 'ko', 'th', 'it', 'hi', 'fa', 'pt', 'ja', 'vi', 'uk', 'zh'];
+const availableLangs = ['ar', 'de', 'en', 'es', 'fr', 'id', 'ms', 'ru', 'tr', 'ta', 'bn', 'nl', 'sv', 'pl', 'ko', 'th', 'it', 'hi', 'fa', 'pt', 'ja', 'vi', 'uk', 'zh_CN'];
 const ignoreDomains = ['InvalidURL', ''];
 const colors = ["white", "whitesmoke"];
 const hiliteColor = '#ea4335';
@@ -371,13 +371,13 @@ const addDays = (dateString, days) => {
 const stringToDate = (dateString) => {
     let ds = dateString.split('-');
     let date = new Date(ds[0], ds[1] - 1, ds[2]);
-    return date.toLocaleDateString(appSettings.i18n.languageCode, { weekday: "long", day: "numeric", month: "long", year: "2-digit" });
+    return date.toLocaleDateString(appSettings.i18n.languageCode.substring(0,2), { weekday: "long", day: "numeric", month: "long", year: "2-digit" });
 }
 
 const barDate = (dateString) => {
     let ds = dateString.split('-');
     let date = new Date(ds[0], ds[1] - 1, ds[2]);
-    return date.toLocaleDateString(appSettings.i18n.languageCode, { day: "numeric", month: "short", weekday: "short" });
+    return date.toLocaleDateString(appSettings.i18n.languageCode.substring(0,2), { day: "numeric", month: "short", weekday: "short" });
 }
 
 const addDaysToDate = (dateString, days) => {

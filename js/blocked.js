@@ -45,8 +45,8 @@ const refreshBlockPage = async () => {
         $('.fav-icon').attr('src', domainData.favIconUrl);
         $('#domain').html(blockedDomain);
         $('#msg').html(appSettings.blockMsg.replace(/\n/g, "<br/>"));
-        $('#blockedOnDate').html(domainData.blockedOn.toLocaleDateString(appSettings.i18n.languageCode));
-        $('#blockedOnTime').html(domainData.blockedOn.toLocaleTimeString(appSettings.i18n.languageCode));
+        $('#blockedOnDate').html(domainData.blockedOn.toLocaleDateString(appSettings.i18n.languageCode.substring(0,2)));
+        $('#blockedOnTime').html(domainData.blockedOn.toLocaleTimeString(appSettings.i18n.languageCode.substring(0,2)));
         $('#since').html(blockedSince((new Date() - blockedOn) / 1000));
     }
 }
