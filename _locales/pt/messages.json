@@ -147,10 +147,6 @@
         "message": "As guias que reproduzem áudio sempre serão rastreadas (contadas)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "Rastreie os seguintes URLs como domínios",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "d,h,m,s",
         "description": ""

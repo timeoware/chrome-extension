@@ -147,10 +147,6 @@
         "message": "Le schede che riproducono l'audio verranno sempre tracciate (contate)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "Tieni traccia dei seguenti URL come domini",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "d,h,m,s",
         "description": ""

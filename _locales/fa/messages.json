@@ -147,10 +147,6 @@
     "message": "برگه‌های پخش صدا همیشه ردیابی می‌شوند (شمارش می‌شوند)",
     "description": ""
   },
-  "trackAsDomainTitle": {
-    "message": "URL های زیر را به عنوان دامنه ردیابی کنید",
-    "description": ""
-  },
   "dayHourMinuteSecond": {
     "message": "d، h، m، s",
     "description": ""

@@ -147,10 +147,6 @@
         "message": "سيتم دائمًا تتبع (عد) علامات التبويب التي تقوم بتشغيل الصوت",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "تتبع عناوين URL التالية كمجالات",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "ي, س, د, ث",
         "description": ""

@@ -147,10 +147,6 @@
         "message": "Tab yang memainkan audio akan sentiasa dijejaki (dikira)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "Jejak URL berikut sebagai domain",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "d,h,m,s",
         "description": ""

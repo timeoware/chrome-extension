@@ -147,10 +147,6 @@
         "message": "Các tab phát âm thanh sẽ luôn được theo dõi (được tính)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "Theo dõi các URL sau dưới dạng tên miền",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "d,h,m,s",
         "description": ""

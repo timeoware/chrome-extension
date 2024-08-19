@@ -147,10 +147,6 @@
         "message": "แท็บที่เล่นเสียงจะถูกติดตามเสมอ (นับ)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "ติดตาม URL ต่อไปนี้เป็นโดเมน",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "d,h,m,s",
         "description": ""

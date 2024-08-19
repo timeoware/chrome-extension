@@ -147,10 +147,6 @@
         "message": "播放音频的选项卡将始终被跟踪（计数）",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "将以下 URL 作为域进行跟踪",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "日,时,分,秒",
         "description": ""

@@ -147,10 +147,6 @@
     "message": "Вкладки, на яких відтворюється аудіо, завжди відстежуватимуться (підраховуються)",
     "description": ""
   },
-  "trackAsDomainTitle": {
-    "message": "Відстежуйте наступні URL-адреси як домени",
-    "description": ""
-  },
   "dayHourMinuteSecond": {
     "message": "д, г, хв, с",
     "description": ""

@@ -147,10 +147,6 @@
         "message": "Вкладки, воспроизводящие звук, всегда будут отслеживаться (подсчитываться)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "Отслеживайте следующие URL-адреса как домены",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "д,ч,м,с",
         "description": ""

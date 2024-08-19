@@ -147,10 +147,6 @@
         "message": "オーディオを再生しているタブは常に追跡 (カウント) されます。",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "次の URL をドメインとして追跡する",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "日,時,分,秒",
         "description": ""

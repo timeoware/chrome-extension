@@ -147,10 +147,6 @@
     "message": "Tabbladen die audio afspelen, worden altijd bijgehouden (geteld)",
     "description": ""
   },
-  "trackAsDomainTitle": {
-    "message": "Volg de volgende URL's als domeinen",
-    "description": ""
-  },
   "dayHourMinuteSecond": {
     "message": "d,h,m,s",
     "description": ""

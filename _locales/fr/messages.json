@@ -147,10 +147,6 @@
         "message": "Les onglets lisant de l'audio seront toujours suivis (comptés)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "Suivre les URL suivantes en tant que domaines",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "d,h,m,s",
         "description": ""

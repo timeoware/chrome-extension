@@ -147,10 +147,6 @@
         "message": "오디오를 재생하는 탭은 항상 추적(계산)됩니다.",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "다음 URL을 도메인으로 추적",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "일,시,분,초",
         "description": ""

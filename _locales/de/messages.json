@@ -147,10 +147,6 @@
     "message": "Tabs, die Audio abspielen, werden immer verfolgt (gezählt)",
     "description": ""
   },
-  "trackAsDomainTitle": {
-    "message": "Verfolgen Sie folgende URLs als Domänen",
-    "description": ""
-  },
   "dayHourMinuteSecond": {
     "message": "t,h,m,s",
     "description": ""

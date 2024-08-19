@@ -147,10 +147,6 @@
         "message": "অডিও বাজানো ট্যাবগুলি সর্বদা ট্র্যাক করা হবে (গণিত)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "নিম্নলিখিত URLগুলিকে ডোমেন হিসাবে ট্র্যাক করুন৷",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "d,h,m,s",
         "description": ""

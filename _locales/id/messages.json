@@ -147,10 +147,6 @@
         "message": "Tab yang memutar audio akan selalu dilacak (dihitung)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "Lacak URL berikut sebagai domain",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "d,h,m,s",
         "description": ""

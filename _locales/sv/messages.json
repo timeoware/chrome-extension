@@ -147,10 +147,6 @@
     "message": "Flikar som spelar ljud kommer alltid att spåras (räknas)",
     "description": ""
   },
-  "trackAsDomainTitle": {
-    "message": "Spåra följande webbadresser som domäner",
-    "description": ""
-  },
   "dayHourMinuteSecond": {
     "message": "d,h,m,s",
     "description": ""

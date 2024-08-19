@@ -147,10 +147,6 @@
     "message": "Las pestañas que reproducen audio siempre serán rastreadas (contadas)",
     "description": ""
   },
-  "trackAsDomainTitle": {
-    "message": "Seguimiento de las siguientes URL como dominios",
-    "description": ""
-  },
   "dayHourMinuteSecond": {
     "message": "d,h,m,s",
     "description": ""

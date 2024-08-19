@@ -275,7 +275,6 @@ const getSetDomain = async (domain, favIconUrl) => {
             }
             else {
                 const item = { domain: domain, favIconUrl: goFavIconUrl(favIconUrl), isBlocked: false };
-                console.log(item);
                 store.add(item);
                 resolve(item);
             }
@@ -291,6 +290,9 @@ const goFavIconUrl = (favIconUrl) => {
         favIconUrl.includes('chrome-extension://')) {
         favIconUrl = defaultFavIcon;
     }
+
+    console.log('setting fav icon url as:' + favIconUrl)
+
     return favIconUrl;
 }
 
@@ -371,13 +373,13 @@ const addDays = (dateString, days) => {
 const stringToDate = (dateString) => {
     let ds = dateString.split('-');
     let date = new Date(ds[0], ds[1] - 1, ds[2]);
-    return date.toLocaleDateString(appSettings.i18n.languageCode.substring(0,2), { weekday: "long", day: "numeric", month: "long", year: "2-digit" });
+    return date.toLocaleDateString(appSettings.i18n.languageCode.substring(0, 2), { weekday: "long", day: "numeric", month: "long", year: "2-digit" });
 }
 
 const barDate = (dateString) => {
     let ds = dateString.split('-');
     let date = new Date(ds[0], ds[1] - 1, ds[2]);
-    return date.toLocaleDateString(appSettings.i18n.languageCode.substring(0,2), { day: "numeric", month: "short", weekday: "short" });
+    return date.toLocaleDateString(appSettings.i18n.languageCode.substring(0, 2), { day: "numeric", month: "short", weekday: "short" });
 }
 
 const addDaysToDate = (dateString, days) => {

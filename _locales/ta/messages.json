@@ -147,10 +147,6 @@
         "message": "ஆடியோ இயங்கும் தாவல்கள் எப்போதும் கண்காணிக்கப்படும் (எண்ணப்படும்)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "பின்வரும் URLகளை டொமைன்களாகக் கண்காணிக்கவும்",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "d,h,m,s",
         "description": ""

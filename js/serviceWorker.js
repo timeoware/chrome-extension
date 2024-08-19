@@ -93,8 +93,10 @@ const goTabs = async () => {
                         }
 
                         if (domainData.isBlocked) {
-                                if (!tab.url.includes("blocked-by-extension.html"))
+                                if (!tab.url.includes("blocked-by-extension.html")) {
                                         await chrome.tabs.update(tab.id, { url: "blocked-by-extension.html?domain=" + tabDomain + '&url=' + tab.url });
+                                }
+
                         }
                         else {
                                 if (tab.url.includes("blocked-by-extension.html")) {
@@ -107,29 +109,19 @@ const goTabs = async () => {
                                 activeTabs.push({ tabID: tab.id, favIconUrl: (tab.favIconUrl == '' ? defaultFavIcon : tab.favIconUrl), domain: tabDomain })
                                 await insertDB(tabDomain, getToday(), getCurrentDateAndTime());
                         }
-                }));
-                await updateTabIcons();
-        }
-        catch {
-                isRunning = false;
-        }
 
-}
+                        stats = await getStats();
 
-const updateTabIcons = async () => {
-        try {
-                stats = await getStats();
-                var tabs = await chrome.tabs.query({});
-                await Promise.all(tabs.map(async (tab) => {
-                        let tabDomain = domainFromURL(tab.url);
-                        if (ignoreDomains.includes(tabDomain)) { return }
-                        let chromeWindow = await chrome.windows.get(tab.windowId);
-                        let isTabActive = chromeWindow.state !== "minimized" && tab.active;
-                        let isTabIdle = isIdle && !tab.audible;
                         if (stats.todayDomains[tabDomain] && isTabActive) {
+
                                 let { startAngle, endAngle, todayMinutes, todayPercentage } = stats.todayDomains[tabDomain];
+
+                                if (domainData.isBlocked)
+                                        tab.favIconUrl = domainData.favIconUrl;
+
                                 if (!tab.favIconUrl)
                                         tab.favIconUrl = defaultFavIcon;
+
                                 let canvas = generateIcon(startAngle, endAngle, true, isTabIdle);
                                 let smallCanvas = generateIcon(startAngle, endAngle, false, isTabIdle);
                                 await canvas.canvas.convertToBlob().then((blob) => {
@@ -141,14 +133,16 @@ const updateTabIcons = async () => {
                                         }
                                 });
                         }
+
                 }));
-                stats = await getStats();
+
                 stats.activeTabs = activeTabs;
                 chrome.storage.local.set({ 'stats': stats }, () => {
                         refresh();
                         isRunning = false;
                 });
-        } catch {
+        }
+        catch {
                 isRunning = false;
         }
 

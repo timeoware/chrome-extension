@@ -147,10 +147,6 @@
         "message": "ऑडियो चलाने वाले टैब को हमेशा ट्रैक किया जाएगा (गिना जाएगा)",
         "description": ""
     },
-    "trackAsDomainTitle": {
-        "message": "निम्नलिखित URL को डोमेन के रूप में ट्रैक करें",
-        "description": ""
-    },
     "dayHourMinuteSecond": {
         "message": "डी, एच, एम, एस",
         "description": ""

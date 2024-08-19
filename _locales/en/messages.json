@@ -1,6 +1,6 @@
 ﻿{
   "name": {
-    "message": "TimeOWare",
+    "message": "TimeOWare: Be aware & block!",
     "description": ""
   },
   "short_name": {
@@ -144,11 +144,7 @@
     "description": ""
   },
   "idleSettingDescription": {
-    "message": "Tabs playing audio will always be tracked (counted)",
-    "description": ""
-  },
-  "trackAsDomainTitle": {
-    "message": "Track following URLs as domains",
+    "message": "Tabs playing audio will always be counted, regardless of idle time.",
     "description": ""
   },
   "dayHourMinuteSecond": {

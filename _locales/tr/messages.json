@@ -1,6 +1,6 @@
 {
     "name": {
-        "message": "TimeOWare",
+        "message": "TimeOWare: Farkında ol ve blokla!",
         "description": ""
     },
     "short_name": {
@@ -145,10 +145,6 @@
     },
     "idleSettingDescription": {
         "message": "Sesli sekmeler her zaman sayılır",
-        "description": ""
-    },
-    "trackAsDomainTitle": {
-        "message": "Aşağıdaki URL'leri alan adı olarak izle",
         "description": ""
     },
     "dayHourMinuteSecond": {
